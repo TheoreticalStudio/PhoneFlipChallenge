@@ -40,10 +40,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container {
-    padding: 0 15px;
-  }
-
   .services-grid {
     grid-template-columns: 1fr;
   }
