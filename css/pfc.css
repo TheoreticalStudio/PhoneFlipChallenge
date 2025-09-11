@@ -76,7 +76,7 @@
   right: 0;
   bottom: 0;
   opacity: 0.4;
-  z-index: -1000;
+  z-index: 1000;
   max-width: 25vw;
   height: auto;
 }
@@ -86,9 +86,9 @@
   position: fixed;
   /* top: 0; */
   left: 0;
-  top: 80px;
+  top: 0;
   opacity: 0.4;
-  z-index: -1000;
+  z-index: 1000;
   width: 100%;
   max-width:25vw;
   height: auto;
@@ -98,6 +98,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  z-index: -1000;
   width: auto;
 }

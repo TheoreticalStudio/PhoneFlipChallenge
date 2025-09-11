@@ -2,17 +2,27 @@
   <div class="container">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="{{ '/img/phone-flip-logo.svg' | relative_url }}" alt="Theoretical Studio" class="footer-logo-img">
+        <a href="{{ '/' | relative_url }}">
+          <img src="{{ '/img/phone-flip-logo.svg' | relative_url }}" alt="Theoretical Studio logo" class="studio-logo">
+        </a>
         <p>© {{ 'now' | date: "%Y" }} Theoretical Studio LLP. All rights reserved.</p>
       </div>
       <div class="footer-links">
         <div class="footer-column">
           <h3>Legal</h3>
           <ul>
-            <li><a href="{{ '/privacy-policy' | relative_url }}" class="btn btn-legal">Privacy Policy</a></li>
-            <li><a href="{{ '/eula' | relative_url }}" class="btn btn-legal">EULA</a></li>
-            <li><a href="{{ '/for-partners' | relative_url }}" class="btn btn-legal">For Partners</a></li>
-            <li><a href="{{ '/press-kit' | relative_url }}" class="btn btn-legal">Press Kit</a></li>
+            <li>
+              <a href="{{ '/press-kit.html' | relative_url }}">Press Kit</a>
+            </li>
+            <li>
+              <a href="{{ '/for-partners.html' | relative_url }}">For Partners</a>
+            </li>
+            <li>
+              <a href="{{ '/phone-flip-privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="{{ '/phone-flip-eula/' | relative_url }}" target="_blank">EULA</a>
+            </li>
           </ul>
         </div>
         <div class="footer-column">
