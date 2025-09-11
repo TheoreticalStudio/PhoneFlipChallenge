@@ -1,0 +1,114 @@
+
+@media (min-width: 1440px) {
+  .trailer {
+    max-width: 500px;
+  }
+  .modal-btn {
+    bottom: 2rem !important;
+    right: 3rem !important;
+  }
+  .hero-block{
+    flex-direction: row;
+
+  }
+}
+
+@media (max-width: 1110px) {
+  /*.container {*/
+  /*  padding-left: 4vw !important;*/
+  /*  padding-right: 4vw !important;*/
+  /*}*/
+
+  .homepage-container {
+    padding: 00px 4vw 00px 4vw;
+  }
+
+  .games-list {
+    height: 100% !important;
+  }
+  .new-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .screenshot-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*.hero-container-wrapper{*/
+  /*  flex-wrap: wrap;*/
+  /*}*/
+  .hero-group{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .hero-gallery{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero-container{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (min-width: 1023px) {
+  .screenshot-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hero-group{
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .hero-button-container {
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .hero-active-block {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .follow-block {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .trailer {
+    /*height: 300px !important;*/
+  }
+
+  .page-navigation-container {
+    /*flex-direction: column;*/
+  }
+  .half-block{
+    width: 100%;;
+  }
+
+  .game-info-block{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.80);
+  }
+}
+
+

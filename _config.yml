@@ -1,12 +1,36 @@
-title: Gleb Shishov Portfolio
+title: Phone Flip Challenge
 lsi: false
 safe: true
 source: ./
 incremental: false
 highlighter: rouge
+
+# Include all HTML and Markdown files
+include: ["*.html", "_pages/*.md", "_pages/*.html"]
+
+
+# Process all files with these extensions
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Default configuration
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 gist:
   noscript: false
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+# Keep pretty URLs for pages
 permalink: pretty
+
+# Process markdown in _pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+    output_ext: .html

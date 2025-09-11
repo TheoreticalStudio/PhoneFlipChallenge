@@ -1,0 +1,233 @@
+.press-kit {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--pfc-color-bg);
+  color: var(--pfc-color-text);
+  font-family: 'Public Sans', sans-serif;
+}
+
+.game-description {
+  text-align: left;
+  margin: 2rem 0;
+  line-height: 1.6;
+  color: var(--pfc-color-text);
+}
+
+.game-description h4 {
+  color: var(--pfc-color-red);
+  margin: 1.5rem 0 1rem;
+  font-size: 1.3rem;
+}
+
+.game-description p {
+  margin-bottom: 1.2rem;
+}
+
+.game-description ul {
+  margin: 1rem 0 1rem 1.5rem;
+  padding-left: 1rem;
+}
+
+.game-description li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.download-links {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(218, 62, 39, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid var(--pfc-color-red);
+}
+
+.download-links .btn-download {
+  margin: 0.5rem 1rem 0.5rem 0;
+  display: inline-block;
+}
+
+.video-link {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  border-left: 4px solid var(--pfc-color-text);
+}
+
+.video-link .btn-download {
+  background: #ff0000;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.video-link .btn-download:hover {
+  background: #cc0000;
+}
+
+.press-section {
+  margin-bottom: 4rem;
+}
+
+.press-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.press-content h2 {
+  color: #da3e27;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.press-content h3 {
+  color: #2c3e50;
+  margin: 2rem 0 1rem;
+  font-size: 1.3rem;
+}
+
+.press-content p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+}
+
+.download-section,
+.video-section,
+.social-section,
+.contact-section {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.download-section a,
+.video-section a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-section a:hover,
+.video-section a:hover {
+  text-decoration: underline;
+}
+
+.hashtags {
+  color: #7f8c8d;
+  font-style: italic;
+  word-break: break-word;
+}
+
+.contact-section a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+.press-intro-section {
+  margin-bottom: 4rem;
+}
+
+.asset-grid, .color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.asset-item, .color-item {
+  border: 2px solid var(--pfc-color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.asset-item:hover, .color-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.asset-preview {
+  background: var(--pfc-color-bg);
+  padding: 2rem;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asset-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pattern-preview {
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--pfc-color-bg),
+    var(--pfc-color-bg) 10px,
+    var(--pfc-color-red) 10px,
+    var(--pfc-color-red) 20px
+  );
+  opacity: 0.7;
+}
+
+.asset-info, .color-info {
+  padding: 1.5rem;
+}
+
+.asset-info h3, .color-info h4 {
+  margin: 0 0 0.5rem;
+}
+
+.btn-download {
+  display: inline-block;
+  background: var(--pfc-color-red);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.btn-download:hover {
+  background: var(--pfc-color-text);
+  color: white;
+  text-decoration: none;
+}
+
+.color-swatch {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px 8px 0 0;
+}
+
+.font-preview {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+@media (max-width: 768px) {
+  .asset-grid, .color-grid {
+    grid-template-columns: 1fr;
+  }
+}

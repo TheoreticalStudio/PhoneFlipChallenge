@@ -1,82 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Phone Flip Challenge - Vote for your favorite merchandise and join the waitlist. Limited edition items available for pre-order.">
-    <meta name="keywords" content="phone flip, merchandise, voting, waitlist, pre-order, limited edition, mobile game, Theoretical Studio">
-    <meta name="author" content="Theoretical Studio">
-    <meta name="baseurl" content="https://theoreticalstudio.github.io">
-    
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="copyright" content="Theoretical Studio LLP">
-    <meta name="theme-color" content="#111111"/>
-  <!-- Индексация -->
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="bingbot" content="noindex,nofollow">
-  <meta name="googlebot" content="noindex,nofollow">
-  <meta name="googlebot-news" content="noindex,nofollow">
-  <meta name="google-site-verification" content="">
-  <meta name="yandex-verification" content="">
-  
-  <!-- AI Боты индексация -->
-  <meta name="GPTBot" content="noindex,nofollow">
-  <meta name="ChatGPT-User" content="noindex,nofollow">
-  <meta name="Google-Extended" content="noindex,nofollow">
-  <meta name="CCBot" content="noindex,nofollow">
-    
-    <!-- Thumbnail and social preview -->
-    <link rel="image_src" href="https://theoreticalstudio.github.io/images/phoneflipchallenge_og.jpg">
-    <meta itemprop="image" content="https://theoreticalstudio.github.io/images/phoneflipchallenge_og.jpg">
-    <meta name="thumbnail" content="https://theoreticalstudio.github.io/images/phoneflipchallenge_og.jpg">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://theoreticalstudio.github.io/phoneflipchallenge_store.html">
-    <meta property="og:title" content="Phone Flip Challenge - Vote for Merchandise | Theoretical Studio">
-    <meta property="og:description" content="Help us decide which Phone Flip Challenge merchandise to produce next. Vote for your favorites and join the waitlist for early access!">
-    <meta property="og:image" content="https://theoreticalstudio.github.io/images/phoneflipchallenge_og.jpg">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://theoreticalstudio.github.io/phoneflipchallenge_store.html">
-    <meta name="twitter:title" content="Phone Flip Challenge - Vote for Merchandise">
-    <meta name="twitter:description" content="Help us decide which Phone Flip Challenge merchandise to produce next. Vote now!">
-    <meta name="twitter:image" content="https://theoreticalstudio.github.io/images/phoneflipchallenge_og.jpg">
-    
-    <title>Phone Flip Challenge - Vote for Merchandise | Theoretical Studio</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/phoneflipchallenge_store.css">
-    
-    <!-- Preconnect to external resources -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://theoreticalstudio.github.io/phoneflipchallenge_store.html">
-    
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="fade-in">Phone Flip Challenge Merch</h1>
-                <p class="fade-in" style="animation-delay: 0.2s;">Help us decide which merchandise to produce next. Vote for your favorites and join the waitlist to be the first to know when they're available!</p>
-                <a href="#products" class="btn btn-accent fade-in" style="animation-delay: 0.4s;">View Products</a>
-            </div>
-        </div>
-    </header>
+---
+layout: default
+title: Merchandise Store
+description: Vote for your favorite Phone Flip Challenge merchandise and join the waitlist. Limited edition items available for pre-order.
+permalink: /phoneflipchallenge_store.html
+noindex: true
+---
 
+<style>
+    /* Add your store-specific styles here */
+    .merchandise-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+    
+    .merchandise-card {
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .merchandise-card:hover {
+        transform: translateY(-5px);
+    }
+</style>
     <!-- Products Section -->
     <section id="products" class="section">
         <div class="container">
@@ -159,276 +109,342 @@
                     <input type="email" class="form-input" placeholder="Enter your email" required>
                     <button type="submit" class="btn btn-accent">Join Waitlist</button>
                 </form>
+            </div>
+            
+            <!-- Thank You Card (initially hidden) -->
+            <div id="thankYouCard" class="thank-you-card" style="display: none;">
+                <h3>Thank You for Voting!</h3>
+                <p>You've voted on all available products. Join our waitlist to be notified when they're available!</p>
+                <a href="#waitlist" class="btn btn-accent">Join Waitlist</a>
+            </div>
+
+            <!-- Demo Products Section (initially hidden) -->
+            <div id="demoProducts" class="demo-products" style="display: none;">
+                <h3 class="text-center mb-lg">Our Products</h3>
+                <p class="text-center mb-xl">Check out our selection of Phone Flip Challenge merchandise</p>
                 
-                <p class="text-small" style="margin-top: 1rem; color: var(--medium-gray); font-size: 0.875rem;">
-                    We respect your privacy. Unsubscribe at any time.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo mb-md">
-                    <img src="images/logo-white.png" alt="Theoretical Studio" height="40">
-                </div>
-                <p class="mb-md">© 2025 Theoretical Studio. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Product data
-            const products = [
-                {
-                    id: 't-shirt',
-                    title: 'Phone Flip T-Shirt',
-                    description: 'Show off your flipping skills with this stylish t-shirt featuring the Phone Flip Challenge logo.',
-                    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-                },
-                {
-                    id: 'phone-case',
-                    title: 'Phone Case',
-                    description: 'Protect your phone in style with our custom Phone Flip Challenge case. Perfect for practicing your flips!',
-                    image: 'https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-                },
-                {
-                    id: 'sticker-pack',
-                    title: 'Sticker Pack',
-                    description: 'Decorate your laptop, phone, or notebook with these high-quality vinyl stickers.',
-                    image: 'https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-                }
-            ];
-
-            const tinderCards = document.getElementById('tinderCards');
-            const likeBtn = document.getElementById('likeBtn');
-            const dislikeBtn = document.getElementById('dislikeBtn');
-            const thankYouCard = document.getElementById('thankYouCard');
-            let currentCardIndex = 0;
-            let startX, startY, moveX, moveY;
-
-            // Initialize the first card
-            function createCard(product) {
-                const card = document.createElement('div');
-                card.className = 'tinder-card';
-                card.innerHTML = `
-                    <img src="${product.image}" alt="${product.title}">
-                    <div class="card-content">
-                        <h3>${product.title}</h3>
-                        <p>${product.description}</p>
+                <div class="products-grid">
+                    <!-- Demo Product 1 -->
+                    <div class="demo-product-card">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="T-Shirt" class="demo-product-image">
+                        <div class="demo-product-info">
+                            <h4>Phone Flip T-Shirt</h4>
+                            <p>Show off your flipping skills in style</p>
+                            <span class="price">$29.99</span>
+                            <button class="btn btn-outline">Pre-order Now</button>
+                        </div>
                     </div>
-                `;
-                
-                // Add touch events for swipe
-                card.addEventListener('touchstart', handleTouchStart, { passive: false });
-                card.addEventListener('touchmove', handleTouchMove, { passive: false });
-                card.addEventListener('touchend', handleTouchEnd);
-                
-                // Add mouse events for desktop
-                card.addEventListener('mousedown', handleMouseDown);
-                
-                return card;
-            }
-
-            // Show the next card or thank you message
-            function showNextCard() {
-                currentCardIndex++;
-                
-                if (currentCardIndex < products.length) {
-                    const card = createCard(products[currentCardIndex]);
-                    tinderCards.innerHTML = '';
-                    tinderCards.appendChild(card);
-                } else {
-                    // All cards have been shown
-                    tinderCards.style.display = 'none';
-                    document.querySelector('.tinder-actions').style.display = 'none';
-                    thankYouCard.style.display = 'block';
                     
-                    // Show demo products section after a short delay
-                    setTimeout(() => {
-                        const demoProducts = document.getElementById('demoProducts');
-                        if (demoProducts) {
-                            demoProducts.style.display = 'block';
-                            demoProducts.scrollIntoView({ behavior: 'smooth' });
-                        }
-                    }, 1000);
-                }
-            }
-
-            // Handle swipe action
-            function handleVote(liked) {
-                const currentProduct = products[currentCardIndex];
-                console.log(`${liked ? 'Liked' : 'Disliked'}:`, currentProduct.title);
-                
-                // Here you would typically send the vote to your server
-                const votes = JSON.parse(localStorage.getItem('productVotes') || '{}');
-                votes[currentProduct.id] = liked ? 'like' : 'dislike';
-                localStorage.setItem('productVotes', JSON.stringify(votes));
-                
-                // Animate card out
-                const card = document.querySelector('.tinder-card');
-                if (card) {
-                    card.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
-                    card.style.transform = `translateX(${liked ? '100%' : '-100%'}) rotate(${liked ? '30deg' : '-30deg'})`;
-                    card.style.opacity = '0';
+                    <!-- Demo Product 2 -->
+                    <div class="demo-product-card">
+                        <img src="https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Phone Case" class="demo-product-image">
+                        <div class="demo-product-info">
+                            <h4>Phone Case</h4>
+                            <p>Protect your phone in style</p>
+                            <span class="price">$19.99</span>
+                            <button class="btn btn-outline">Pre-order Now</button>
+                        </div>
+                    </div>
                     
-                    // Show next card after animation
-                    setTimeout(showNextCard, 300);
-                }
-            }
+                    <!-- Demo Product 3 -->
+                    <div class="demo-product-card">
+                        <img src="https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sticker Pack" class="demo-product-image">
+                        <div class="demo-product-info">
+                            <h4>Sticker Pack</h4>
+                            <p>Decorate your devices</p>
+                            <span class="price">$9.99</span>
+                            <button class="btn btn-outline">Pre-order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-            // Touch event handlers
-            function handleTouchStart(e) {
-                const touch = e.touches[0];
-                startX = touch.clientX;
-                startY = touch.clientY;
-                this.style.transition = 'none';
-            }
+<!-- Waitlist Section -->
+<section id="waitlist" class="waitlist">
+    <div class="container">
+        <div class="waitlist-content">
+            <h2 class="mb-sm">Спасибо, что выбрали понравившиеся товары!</h2>
+            <p class="mb-lg">Оставьте свою почту, чтобы первыми узнать о запуске производства самых популярных товаров. Ранние подписчики получат специальные предложения!</p>
+            
+            <form id="waitlist-form" class="waitlist-form">
+                <input type="email" class="form-input" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-accent">Join Waitlist</button>
+            </form>
+            
+            <p class="text-small" style="margin-top: 1rem; color: var(--medium-gray); font-size: 0.875rem;">
+                We respect your privacy. Unsubscribe at any time.
+            </p>
+        </div>
+    </div>
+</section>
 
-            function handleTouchMove(e) {
-                if (!startX || !startY) return;
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo mb-md">
+                <img src="images/logo-white.png" alt="Theoretical Studio" height="40">
+            </div>
+            <p class="mb-md"> 2025 Theoretical Studio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Additional scripts -->
+<script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+<script src="{{ '/js/main.js' | relative_url }}"></script>
+
+<!-- JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Product data
+        const products = [
+            {
+                id: 't-shirt',
+                title: 'Phone Flip T-Shirt',
+                description: 'Show off your flipping skills with this stylish t-shirt featuring the Phone Flip Challenge logo.',
+                image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            },
+            {
+                id: 'phone-case',
+                title: 'Phone Case',
+                description: 'Protect your phone in style with our custom Phone Flip Challenge case. Perfect for practicing your flips!',
+                image: 'https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            },
+            {
+                id: 'sticker-pack',
+                title: 'Sticker Pack',
+                description: 'Decorate your laptop, phone, or notebook with these high-quality vinyl stickers.',
+                image: 'https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+            }
+        ];
+
+        const tinderCards = document.getElementById('tinderCards');
+        const likeBtn = document.getElementById('likeBtn');
+        const dislikeBtn = document.getElementById('dislikeBtn');
+        const thankYouCard = document.getElementById('thankYouCard');
+        let currentCardIndex = 0;
+        let startX, startY, moveX, moveY;
+
+        // Initialize the first card
+        function createCard(product) {
+            const card = document.createElement('div');
+            card.className = 'tinder-card';
+            card.innerHTML = `
+                <img src="${product.image}" alt="${product.title}">
+                <div class="card-content">
+                    <h3>${product.title}</h3>
+                    <p>${product.description}</p>
+                </div>
+            `;
+            
+            // Add touch events for swipe
+            card.addEventListener('touchstart', handleTouchStart, { passive: false });
+            card.addEventListener('touchmove', handleTouchMove, { passive: false });
+            card.addEventListener('touchend', handleTouchEnd);
+            
+            // Add mouse events for desktop
+            card.addEventListener('mousedown', handleMouseDown);
+            
+            return card;
+        }
+
+        // Show the next card or thank you message
+        function showNextCard() {
+            currentCardIndex++;
+            
+            if (currentCardIndex < products.length) {
+                const card = createCard(products[currentCardIndex]);
+                tinderCards.innerHTML = '';
+                tinderCards.appendChild(card);
+            } else {
+                // All cards have been shown
+                tinderCards.style.display = 'none';
+                document.querySelector('.tinder-actions').style.display = 'none';
+                thankYouCard.style.display = 'block';
                 
-                const touch = e.touches[0];
-                moveX = touch.clientX - startX;
-                moveY = touch.clientY - startY;
+                // Show demo products section after a short delay
+                setTimeout(() => {
+                    const demoProducts = document.getElementById('demoProducts');
+                    if (demoProducts) {
+                        demoProducts.style.display = 'block';
+                        demoProducts.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }, 1000);
+            }
+        }
+
+        // Handle swipe action
+        function handleVote(liked) {
+            const currentProduct = products[currentCardIndex];
+            console.log(`${liked ? 'Liked' : 'Disliked'}:`, currentProduct.title);
+            
+            // Here you would typically send the vote to your server
+            const votes = JSON.parse(localStorage.getItem('productVotes') || '{}');
+            votes[currentProduct.id] = liked ? 'like' : 'dislike';
+            localStorage.setItem('productVotes', JSON.stringify(votes));
+            
+            // Animate card out
+            const card = document.querySelector('.tinder-card');
+            if (card) {
+                card.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
+                card.style.transform = `translateX(${liked ? '100%' : '-100%'}) rotate(${liked ? '30deg' : '-30deg'})`;
+                card.style.opacity = '0';
                 
-                // Only prevent default if we're swiping horizontally
-                if (Math.abs(moveX) > 10) {
-                    e.preventDefault();
-                }
-                
-                // Calculate rotation based on distance
-                const rotation = Math.min(Math.max(moveX / 10, -15), 15);
-                
-                // Apply transform
-                this.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
+                // Show next card after animation
+                setTimeout(showNextCard, 300);
+            }
+        }
+
+        // Touch event handlers
+        function handleTouchStart(e) {
+            const touch = e.touches[0];
+            startX = touch.clientX;
+            startY = touch.clientY;
+            this.style.transition = 'none';
+        }
+
+        function handleTouchMove(e) {
+            if (!startX || !startY) return;
+            
+            const touch = e.touches[0];
+            moveX = touch.clientX - startX;
+            moveY = touch.clientY - startY;
+            
+            // Only prevent default if we're swiping horizontally
+            if (Math.abs(moveX) > 10) {
+                e.preventDefault();
+            }
+            
+            // Calculate rotation based on distance
+            const rotation = Math.min(Math.max(moveX / 10, -15), 15);
+            
+            // Apply transform
+            this.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
+            
+            // Add class based on direction
+            if (moveX > 30) {
+                this.classList.add('swiping-right');
+                this.classList.remove('swiping-left');
+            } else if (moveX < -30) {
+                this.classList.add('swiping-left');
+                this.classList.remove('swiping-right');
+            } else {
+                this.classList.remove('swiping-left', 'swiping-right');
+            }
+        }
+
+        function handleTouchEnd() {
+            if (Math.abs(moveX) > 100) {
+                // Swipe threshold reached
+                handleVote(moveX > 0);
+            } else {
+                // Return to center
+                this.style.transition = 'transform 0.3s ease';
+                this.style.transform = 'translateX(0) rotate(0)';
+                this.classList.remove('swiping-left', 'swiping-right');
+            }
+            
+            // Reset values
+            startX = startY = moveX = moveY = null;
+        }
+
+        // Mouse event handlers for desktop
+        function handleMouseDown(e) {
+            startX = e.clientX;
+            startY = e.clientY;
+            this.style.transition = 'none';
+            
+            document.addEventListener('mousemove', handleMouseMove);
+            document.addEventListener('mouseup', handleMouseUp);
+        }
+
+        function handleMouseMove(e) {
+            if (startX === null || startY === null) return;
+            
+            moveX = e.clientX - startX;
+            moveY = e.clientY - startY;
+            
+            // Calculate rotation based on distance
+            const rotation = Math.min(Math.max(moveX / 10, -15), 15);
+            
+            // Apply transform
+            const card = document.querySelector('.tinder-card');
+            if (card) {
+                card.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
                 
                 // Add class based on direction
                 if (moveX > 30) {
-                    this.classList.add('swiping-right');
-                    this.classList.remove('swiping-left');
+                    card.classList.add('swiping-right');
+                    card.classList.remove('swiping-left');
                 } else if (moveX < -30) {
-                    this.classList.add('swiping-left');
-                    this.classList.remove('swiping-right');
+                    card.classList.add('swiping-left');
+                    card.classList.remove('swiping-right');
                 } else {
-                    this.classList.remove('swiping-left', 'swiping-right');
+                    card.classList.remove('swiping-left', 'swiping-right');
                 }
             }
+        }
 
-            function handleTouchEnd() {
-                if (Math.abs(moveX) > 100) {
-                    // Swipe threshold reached
-                    handleVote(moveX > 0);
-                } else {
-                    // Return to center
-                    this.style.transition = 'transform 0.3s ease';
-                    this.style.transform = 'translateX(0) rotate(0)';
-                    this.classList.remove('swiping-left', 'swiping-right');
-                }
-                
-                // Reset values
-                startX = startY = moveX = moveY = null;
-            }
-
-            // Mouse event handlers for desktop
-            function handleMouseDown(e) {
-                startX = e.clientX;
-                startY = e.clientY;
-                this.style.transition = 'none';
-                
-                document.addEventListener('mousemove', handleMouseMove);
-                document.addEventListener('mouseup', handleMouseUp);
-            }
-
-            function handleMouseMove(e) {
-                if (startX === null || startY === null) return;
-                
-                moveX = e.clientX - startX;
-                moveY = e.clientY - startY;
-                
-                // Calculate rotation based on distance
-                const rotation = Math.min(Math.max(moveX / 10, -15), 15);
-                
-                // Apply transform
+        function handleMouseUp() {
+            document.removeEventListener('mousemove', handleMouseMove);
+            document.removeEventListener('mouseup', handleMouseUp);
+            
+            if (Math.abs(moveX) > 100) {
+                // Swipe threshold reached
+                handleVote(moveX > 0);
+            } else {
+                // Return to center
                 const card = document.querySelector('.tinder-card');
                 if (card) {
-                    card.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
-                    
-                    // Add class based on direction
-                    if (moveX > 30) {
-                        card.classList.add('swiping-right');
-                        card.classList.remove('swiping-left');
-                    } else if (moveX < -30) {
-                        card.classList.add('swiping-left');
-                        card.classList.remove('swiping-right');
-                    } else {
-                        card.classList.remove('swiping-left', 'swiping-right');
-                    }
+                    card.style.transition = 'transform 0.3s ease';
+                    card.style.transform = 'translateX(0) rotate(0)';
+                    card.classList.remove('swiping-left', 'swiping-right');
                 }
             }
+            
+            // Reset values
+            startX = startY = moveX = moveY = null;
+        }
 
-            function handleMouseUp() {
-                document.removeEventListener('mousemove', handleMouseMove);
-                document.removeEventListener('mouseup', handleMouseUp);
+        // Button click handlers
+        likeBtn.addEventListener('click', () => handleVote(true));
+        dislikeBtn.addEventListener('click', () => handleVote(false));
+
+        // Initialize the first card
+        if (products.length > 0) {
+            const firstCard = createCard(products[0]);
+            tinderCards.appendChild(firstCard);
+        }
+
+        // Handle waitlist form submission
+        const waitlistForm = document.getElementById('waitlist-form');
+        if (waitlistForm) {
+            waitlistForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = this.querySelector('input[type="email"]').value;
                 
-                if (Math.abs(moveX) > 100) {
-                    // Swipe threshold reached
-                    handleVote(moveX > 0);
-                } else {
-                    // Return to center
-                    const card = document.querySelector('.tinder-card');
-                    if (card) {
-                        card.style.transition = 'transform 0.3s ease';
-                        card.style.transform = 'translateX(0) rotate(0)';
-                        card.classList.remove('swiping-left', 'swiping-right');
-                    }
-                }
+                // Here you would typically send this to your server
+                console.log('Waitlist signup:', email);
                 
-                // Reset values
-                startX = startY = moveX = moveY = null;
-            }
-
-            // Button click handlers
-            likeBtn.addEventListener('click', () => handleVote(true));
-            dislikeBtn.addEventListener('click', () => handleVote(false));
-
-            // Initialize the first card
-            if (products.length > 0) {
-                const firstCard = createCard(products[0]);
-                tinderCards.appendChild(firstCard);
-            }
-
-            // Handle waitlist form submission
-            const waitlistForm = document.getElementById('waitlist-form');
-            if (waitlistForm) {
-                waitlistForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    const email = this.querySelector('input[type="email"]').value;
-                    
-                    // Here you would typically send this to your server
-                    console.log('Waitlist signup:', email);
-                    
-                    // Show success message
-                    alert('Thank you for joining our waitlist!');
-                    this.reset();
-                });
-            }
-        });
-    </script>
-</body>
-</html>
+                // Show success message
+                alert('Thank you for joining our waitlist!');
+                this.reset();
+            });
+        }
+    });
+</script>

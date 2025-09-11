@@ -1,235 +1,107 @@
-<!doctype html>
-<html lang="en-EN">
-<head>
-  <meta charset="utf-8">
+---
+layout: default
+title: Phone Flip Challenge
+---
 
-
-
-
-  
-  <title>Phone Flip Challenge</title>
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/adaptive.css">
-  <link rel="stylesheet" href="css/top-menu.css">
-  <link rel="stylesheet" href="css/pfc.css">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
-  <meta name="description"
-        content="Phone Flip Challenge is a simple and fun game where you flip your phone and try to catch it. Just download it now!">
-  
-  
-  <meta name="robots" content="noindex,nofollow" />
-  <meta name="copyright" content="Theoretical Studio LLP">
-  <meta name="theme-color" content="#111111"/>
-<!-- Индексация -->
-<meta name="robots" content="noindex,nofollow">
-<meta name="bingbot" content="noindex,nofollow">
-<meta name="googlebot" content="noindex,nofollow">
-<meta name="googlebot-news" content="noindex,nofollow">
-<meta name="google-site-verification" content="">
-<meta name="yandex-verification" content="">
-
-<!-- AI Боты индексация -->
-<meta name="GPTBot" content="noindex,nofollow">
-<meta name="ChatGPT-User" content="noindex,nofollow">
-<meta name="Google-Extended" content="noindex,nofollow">
-<meta name="CCBot" content="noindex,nofollow">
-
-
-  <meta property="og:locale" content="en_EN">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Phone Flip Challenge">
-  <meta property="og:description"
-        content="Phone Flip Challenge is a simple and fun game where you flip your phone and try to catch it. Just download it now!">
-  <meta property="og:image" content="img/phone-flip-thumbnail.jpg">
-  <meta property="og:url" content="https://theoretical.studio/phone-flip">
-  <meta property="og:site_name" content="Phone Flip Challenge">
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-MJ4968FH');</script>
-  <!-- End Google Tag Manager -->
-
-
-</head>
-<body class="wrapper-regrow">
-<header class="top-nav flex-center">
-  <a href="index.html">
-    <img src="img/icons/theoretical-studio-logo-white.svg" alt="Theoretical Studio logo" class="studio-logo">
-  </a>
-  <input id="menu-toggle" type="checkbox"/>
-  <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
-  </label>
-  <ul class="menu">
-    <li>
-      <a href="phone-flip-privacy-policy.html" target="_blank">Privacy policy</a>
-    </li>
-    <li>
-      <a href="phone-flip-challenge-eula.html" target="_blank">EULA</a>
-    </li>
-  </ul>
-</header>
 <section class="fullscreen-section flex-center">
   <div class="video-container">
-    <video width="100%" height="100%" muted="muted" class="hero-video" loop="loop" autoplay=""
-           poster="img/regrow-bg.webp">
-      <source src="img/short_trailer.mp4" type="video/mp4">
+    <video width="100%" height="100%" muted class="hero-video" loop autoplay poster="{{ '/img/regrow-bg.webp' | relative_url }}">
+      <source src="{{ '/img/short_trailer.mp4' | relative_url }}" type="video/mp4">
     </video>
   </div>
   <div class="container">
     <div class="hero-block">
       <div class="hero-active-block">
-        <img src="img/phone-flip-logo.svg" alt="phone flip challenge" class="game-logo-big">
+        <img src="{{ '/img/phone-flip-logo.svg' | relative_url }}" alt="phone flip challenge" class="game-logo-big">
         <h1>Flip Everywhere!</h1>
         <div class="hero-button-container">
-          <a href="https://apps.apple.com/app/apple-store/id1609515393?pt=124105089&ct=Website&mt=8" class="store-button"
-             id="appStore">
-            <img src="img/icons/appstore-button.svg" alt="AppStore button">
+          <a href="https://apps.apple.com/app/apple-store/id1609515393?pt=124105089&ct=Website&mt=8" class="store-button" id="appStore">
+            <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
           </a>
-          <a
-            href="#"
-            class="store-button" id="googlePlay">
-            <img src="img/icons/googleplay-button.svg" alt="Play Market button">
+          <a href="#" class="store-button" id="googlePlay">
+            <img src="{{ '/img/icons/googleplay-button.svg' | relative_url }}" alt="Play Market button">
           </a>
-          <a
-            href="#"
-            class="store-button" id="telegram">
-            <img src="img/icons/telegram-button.svg" alt="telegram button">
+          <a href="#" class="store-button" id="telegram">
+            <img src="{{ '/img/icons/telegram-button.svg' | relative_url }}" alt="telegram button">
           </a>
         </div>
       </div>
-      <iframe src="https://www.youtube.com/embed/AhVuJoO1FRc" title="Phone Flip Challenge : Official Trailer  #phoneflipchallenge #phoneflip #phoneflipping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer"></iframe>
+      <iframe src="https://www.youtube.com/embed/AhVuJoO1FRc" title="Phone Flip Challenge : Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer" allowfullscreen></iframe>
     </div>
   </div>
 </section>
+  </div>
+</section>
+
 <section class="flex-center" id="buttons">
   <div class="container">
     <div class="button-line">
-      <a href="phoneflipchallenge_store.html" class="banner-button" target="_blank">
+      <a href="{{ '/phoneflipchallenge_store.html' | relative_url }}" class="banner-button" target="_blank">
         <span>Vote for merch</span>
-        <img src="img/button_merch.png" alt="merch">
+        <img src="{{ '/img/button_merch.png' | relative_url }}" alt="merch">
       </a>
       <a href="#global_challenge" class="banner-button">
         <span>To the global Challenge</span>
-        <img src="img/button_challenge.png">
+        <img src="{{ '/img/button_challenge.png' | relative_url }}" alt="challenge">
       </a>
       <a href="#global_challenge" class="banner-button">
         <span>VIP</span>
-        <img src="img/button_vip.png">
+        <img src="{{ '/img/button_vip.png' | relative_url }}" alt="vip">
       </a>
     </div>
   </div>
 </section>
+
 <section class="flex-center" id="about">
   <div class="container">
     <h1>About the game</h1>
-    <p>
-      <b>Do you like spinning things? Like fidget toys, pens, or phones? Try the Phone Flip challenge!</b><br
-      <p>
-        Phone Flip is a fun and simple game where you flip your real phone into the air and try to catch it. Sounds easy? Try it once — and you won’t stop. It’s all about skill, fast hands, and perfect timing. Flip your phone, catch it just right, and don’t drop it!
-      </p>
-      <p>
-        <b>It’s Not Just a Game – It’s a Feeling</b><br>
-        Phone Flip is a real challenge. It’s not just a game — it’s a feeling.<br>
-        A small flip that makes your hands shake. A big flip that lands just right.<br>
-        A trick that looks impossible — but you did it.
-      </p>
-      <br>
+    <p><b>Do you like spinning things? Like fidget toys, pens, or phones? Try the Phone Flip challenge!</b></p>
+    <p>Phone Flip is a fun and simple game where you flip your real phone into the air and try to catch it. Sounds easy? Try it once — and you won't stop. It's all about skill, fast hands, and perfect timing. Flip your phone, catch it just right, and don't drop it!</p>
+    <p><b>It's Not Just a Game – It's a Feeling</b><br>
+    Phone Flip is a real challenge. It's not just a game — it's a feeling.<br>
+    A small flip that makes your hands shake. A big flip that lands just right.<br>
+    A trick that looks impossible — but you did it.</p>
   </div>
 </section>
+
 <section id="global_challenge">
   <div class="container">
-    <iframe src="https://www.youtube.com/embed/VCLLpUdxsBE" title="Phone Flip Challenge: Start Challenge #phoneflipchallenge #phoneflip #phoneflipping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer"></iframe>
+    <iframe src="https://www.youtube.com/embed/VCLLpUdxsBE" title="Phone Flip Challenge: Start Challenge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer" allowfullscreen></iframe>
   </div>
 </section>
+
 <section class="flex-center">
   <div class="container">
-   <div class="flex-center">
-     <h1>World Phone Flip Challenge</h1>
-     <div  class="two-col flex-center flex-reverse container-padding">
-       <div class="stories-text rot--5">
-         <h1>1</h1>
-         <h1>Flip your phone and make a record</h1></div>
-       <video muted="muted" class="stories-video" loop="loop" autoplay=""
-              poster="img/event_1.png">
-         <source src="img/event_flip.mp4" type="video/mp4">
-       </video>
-     </div>
-     <div class="two-col flex-center container-padding">
-       <div class="stories-text rot-5">
-         <h1>1</h1>
-         <h1>Show record to camera</h1></div>
-       <video muted="muted" class="stories-video" loop="loop" autoplay=""
-              poster="img/event_2.png">
-         <source src="img/event_show.mp4" type="video/mp4">
-       </video>
-     </div>
-     <div class="two-col flex-center container-padding">
-       <div class="stories-text">
-         <h1>3</h1>
-         <h1>Publish video</h1>
-         <h1>tag a friend in social meadia</h1>
-         <p>#phoneflipchallenge #phoneflip<p></div>
-       </div>
-   </div>
+    <div class="flex-center">
+      <h1>World Phone Flip Challenge</h1>
+      <div class="two-col flex-center flex-reverse container-padding">
+        <div class="stories-text rot--5">
+          <h1>1</h1>
+          <h1>Flip your phone and make a record</h1>
+        </div>
+        <video muted class="stories-video" loop autoplay poster="{{ '/img/event_1.png' | relative_url }}">
+          <source src="{{ '/img/event_flip.mp4' | relative_url }}" type="video/mp4">
+        </video>
+      </div>
+      <div class="two-col flex-center container-padding">
+        <div class="stories-text rot-5">
+          <h1>2</h1>
+          <h1>Show record to camera</h1>
+        </div>
+        <video muted class="stories-video" loop autoplay poster="{{ '/img/event_2.png' | relative_url }}">
+          <source src="{{ '/img/event_show.mp4' | relative_url }}" type="video/mp4">
+        </video>
+      </div>
+      <div class="two-col flex-center container-padding">
+        <div class="stories-text">
+          <h1>3</h1>
+          <h1>Publish video</h1>
+          <h1>tag a friend in social media</h1>
+          <p>#phoneflipchallenge #phoneflip</p>
+        </div>
+        <!-- Empty video element to maintain layout consistency -->
+        <div style="width: 100%; visibility: hidden;"></div>
+      </div>
+    </div>
   </div>
 </section>
-<footer>
-  <div class="container">
-    <a href="support.html" class="text-button"> Contact us</a>
-  </div>
-</footer>
-<img src="img/dots-up.png" class="left-top-angle" alt="dots">
-<img src="img/dots.png" class="right-bot-angle" alt="dots">
-</body>
-</html>
-
-<script src="js/modal.js"></script>
-<!--<script src="js/devicecheck.js"></script>-->
-<script src="js/main.js"></script>
-
-
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ4968FH"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZK15BT4W8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag('js', new Date());
-
-  gtag('config', 'G-FZK15BT4W8');
-</script>
-

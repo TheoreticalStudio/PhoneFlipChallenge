@@ -1,26 +1,7 @@
-FROM ruby as builder
-
-# https://github.com/inadarei/alpine-jekyll/blob/master/Dockerfile
-RUN gem install --no-document \
-        redcarpet \
-        kramdown \
-        maruku \
-        rdiscount \
-        RedCloth \
-        liquid \
-        pygments.rb \
-        sass \
-        safe_yaml \
-        jekyll \
-        jekyll-paginate \
-        jekyll-sass-converter \
-        jekyll-sitemap \
-        jekyll-feed \
-        jekyll-redirect-from \
-        webrick
-
-RUN mkdir /srv/jekyll
+FROM jekyll/jekyll:4.2.0
 
 WORKDIR /srv/jekyll
 
-CMD jekyll
+EXPOSE 4001
+
+CMD ["jekyll", "serve", "--host", "0.0.0.0"] 
