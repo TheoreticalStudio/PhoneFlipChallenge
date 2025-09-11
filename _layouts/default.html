@@ -12,9 +12,50 @@
     {% if jekyll.environment == 'production' and site.google_analytics %}
       {% include analytics.html %}
     {% endif %}
+
+    <!-- <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | absolute_url }}" /> -->
+
+<!-- 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Phone Flip Challenge",
+        "description": "A fun and addictive game where you flip your phone and try to catch it!",
+        "applicationCategory": "Game",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "1000"
+        }
+      }
+      </script> -->
+
+<!-- 
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "How to play Phone Flip Challenge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Simply download the app, hold your phone, and flip it in the air. Try to catch it with style and accuracy to score points!"
+            }
+          }]
+        }
+        </script> -->
+
   </head>
   <body>
-    <!-- {% include header.html %} -->
+    {% include header.html %}
     
     <main  class="wrapper">
       {{ content }}

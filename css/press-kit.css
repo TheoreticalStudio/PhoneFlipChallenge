@@ -70,8 +70,8 @@
 }
 
 .press-content {
-  max-width: 800px;
-  margin: 2rem auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
   background: #f8f9fa;
   border-radius: 8px;
@@ -156,7 +156,50 @@
 
 .asset-item:hover, .color-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Card Styles */
+.contact-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.contact-card p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-card .email {
+  display: inline-block;
+  background: #f8f9fa;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  color: #e74c3c;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-card .email:hover {
+  background: #e74c3c;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
 }
 
 .asset-preview {

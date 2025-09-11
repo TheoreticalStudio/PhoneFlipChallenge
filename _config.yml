@@ -5,6 +5,11 @@ source: ./
 incremental: false
 highlighter: rouge
 
+# Development settings
+destination: _site
+plugins:
+  - jekyll-livereload
+
 # Include all HTML and Markdown files
 include: ["*.html", "_pages/*.md", "_pages/*.html"]
 

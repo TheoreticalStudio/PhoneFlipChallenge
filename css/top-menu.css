@@ -30,7 +30,7 @@ header {
     width: 100%;
     height: var(--heder-h);
     padding: 0 2.5rem;
-    background: var(--color-dark-gradient);
+    /* background: var(--color-dark-gradient); */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

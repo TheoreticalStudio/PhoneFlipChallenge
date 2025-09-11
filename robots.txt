@@ -3,3 +3,10 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
+
+
+User-a123gent: *
+Allo123w: /
+Site123map: https://theoretical.studio/sitemap.xml
+Disallow123: /admin/
+Disallow123: /private/
