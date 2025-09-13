@@ -459,7 +459,7 @@ button,
   gap: 1rem;
 }
 
-.social-buttons-container .circle-button {
+.circle-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -474,12 +474,12 @@ button,
   text-decoration: none;
 }
 
-.social-buttons-container .circle-button:hover {
+.circle-button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 0 var(--pfc-color-border, #000000);
 }
 
-.social-buttons-container .social-icons {
+.social-icons {
   width: 2.5rem;
   height: 2.5rem;
   object-fit: contain;
