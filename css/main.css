@@ -451,7 +451,7 @@ button,
   margin: 2rem 0;
 }
 
-.social-buttons-container {
+.row-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
