@@ -32,6 +32,16 @@ h1 {
   font-weight: 900;
 }
 
+.header-big{
+  font-size: clamp(2rem, 5vh, 3rem);
+  margin-top: 0.67em;
+  margin-bottom: 2rem;
+  word-break: break-word;
+  font-weight: 900;
+  text-align: center;
+}
+
+
 h2{
   font-size: clamp(1rem,5vh,2rem);
   margin-bottom: 0.5rem;
