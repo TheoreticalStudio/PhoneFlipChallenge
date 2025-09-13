@@ -466,17 +466,17 @@ button,
   width: 4rem;
   height: 4rem;
   padding: 0.5rem;
-  background-color: var(--pfc-color-bg, #ffffff);
-  border: 2px solid var(--pfc-color-border, #000000);
+  background-color: var(--pfc-color-bg);
+  border: 2px solid var(--pfc-color-border);
   border-radius: 50%;
-  box-shadow: 0 5px 0 var(--pfc-color-border, #000000);
+  box-shadow: 0 5px 0 var(--pfc-color-border);
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
 
 .circle-button:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 0 var(--pfc-color-border, #000000);
+  box-shadow: 0 8px 0 var(--pfc-color-border);
 }
 
 .social-icons {
