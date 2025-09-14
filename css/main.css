@@ -485,3 +485,11 @@ button,
   object-fit: contain;
   display: block;
 }
+
+.on{
+  display: block !important;
+}
+
+.off{
+  display: none !important;
+}

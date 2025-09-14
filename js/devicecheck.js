@@ -1,0 +1,71 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const appStore = document.getElementById("appStore");
+    const googlePlay = document.getElementById("googlePlay");
+    const telegram = document.getElementById("telegram");
+  
+    const platform = getMobileOperatingSystem();
+    
+    // Default links (regular web links)
+    let appStoreLink = "https://apps.apple.com/app/apple-store/id1609515393";
+    let googlePlayLink = "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow";
+    let telegramLink = "https://t.me/flutter_accelerometer_test_bot";
+    
+    // Update links based on platform
+    if (platform === "iOS") {
+        // For iOS devices
+        appStoreLink = "itms-apps://apps.apple.com/app/id1609515393";
+        // Keep other links as default (regular web links)
+    } else if (platform === "Android") {
+        // For Android devices
+        googlePlayLink = "market://details?id=com.TheoreticalStudio.Regrow";
+        telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
+    } else if (platform === "unknown") {
+        // For desktops or unknown devices
+        telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
+    }
+    
+    // Apply the links
+    if (appStore) appStore.href = appStoreLink;
+    if (googlePlay) googlePlay.href = googlePlayLink;
+    if (telegram) telegram.href = telegramLink;
+    
+    // Toggle visibility based on platform (keeping your existing logic)
+    if (platform === "iOS") {
+        if (appStore) appStore.classList.add("on");
+        if (googlePlay) googlePlay.classList.add("off");
+    } else if (platform === "Android") {
+        if (appStore) appStore.classList.add("off");
+        if (googlePlay) googlePlay.classList.add("on");
+    } else {
+        if (appStore) appStore.classList.add("on");
+        if (googlePlay) googlePlay.classList.add("on");
+    }
+});
+  
+  
+  /**
+   * Determine the mobile operating system.
+   * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
+   *
+   * @returns {String}
+   */
+  function getMobileOperatingSystem() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+    // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+      return "Windows Phone";
+    }
+  
+    if (/android/i.test(userAgent)) {
+      return "Android";
+    }
+  
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      return "iOS";
+    }
+  
+    return "unknown";
+  }
+  
