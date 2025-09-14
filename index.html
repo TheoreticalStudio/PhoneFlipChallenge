@@ -10,15 +10,26 @@ title: Phone Flip Challenge
         <img src="{{ '/img/phone-flip-logo.svg' | relative_url }}" alt="phone flip challenge" class="game-logo-big">
         <h1>Flip Everywhere!</h1>
         <div class="hero-button-container">
-          <a href="https://apps.apple.com/app/apple-store/id1609515393?pt=124105089&ct=Website&mt=8" class="store-button" id="appStore">
+          <!-- ведём сразу на приложение -->
+          <a href="itms-apps://apps.apple.com/app/id1609515393" class="store-button" id="appStore">
             <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
           </a>
-          <a href="#" class="store-button" id="googlePlay">
+          <a href="market://details?id=com.TheoreticalStudio.Regrow" class="store-button" id="googlePlay">
             <img src="{{ '/img/icons/googleplay-button.svg' | relative_url }}" alt="Play Market button">
           </a>
-          <a href="#" class="store-button" id="telegram">
+          <a href="tg://resolve?domain=flutter_accelerometer_test_bot" class="store-button" id="telegram">
             <img src="{{ '/img/icons/telegram-button.svg' | relative_url }}" alt="telegram button">
           </a>
+          <!-- Обычные ссылки -->
+          <!-- <a href="https://apps.apple.com/app/apple-store/id1609515393" class="store-button" id="appStore">
+            <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow" class="store-button" id="googlePlay">
+            <img src="{{ '/img/icons/googleplay-button.svg' | relative_url }}" alt="Play Market button">
+          </a>
+          <a href="https://t.me/flutter_accelerometer_test_bot" class="store-button" id="telegram">
+            <img src="{{ '/img/icons/telegram-button.svg' | relative_url }}" alt="telegram button">
+          </a> -->
         </div>
       </div>
       <iframe src="https://www.youtube.com/embed/AhVuJoO1FRc" title="Phone Flip Challenge : Official Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer" allowfullscreen></iframe>
