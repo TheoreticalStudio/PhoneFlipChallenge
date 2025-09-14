@@ -29,16 +29,14 @@ document.addEventListener("DOMContentLoaded", function() {
     if (googlePlay) googlePlay.href = googlePlayLink;
     if (telegram) telegram.href = telegramLink;
     
-    // Toggle visibility based on platform (keeping your existing logic)
-    if (platform === "iOS") {
-        if (appStore) appStore.classList.add("on");
-        if (googlePlay) googlePlay.classList.add("off");
-    } else if (platform === "Android") {
-        if (appStore) appStore.classList.add("off");
-        if (googlePlay) googlePlay.classList.add("on");
-    } else {
-        if (appStore) appStore.classList.add("on");
-        if (googlePlay) googlePlay.classList.add("on");
+    // Show both buttons on all devices
+    if (appStore) {
+        appStore.classList.add("on");
+        appStore.classList.remove("off");
+    }
+    if (googlePlay) {
+        googlePlay.classList.add("on");
+        googlePlay.classList.remove("off");
     }
 });
   
