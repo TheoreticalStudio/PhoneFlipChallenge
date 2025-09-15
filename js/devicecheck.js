@@ -6,18 +6,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const platform = getMobileOperatingSystem();
     
     // Default links (regular web links)
-    let appStoreLink = "https://apps.apple.com/app/apple-store/id1609515393";
-    let googlePlayLink = "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.Regrow";
+    let appStoreLink = "https://apps.apple.com/app/apple-store/id6744176430";
+    let googlePlayLink = "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.PhoneFlip";
     let telegramLink = "https://t.me/flutter_accelerometer_test_bot";
     
     // Update links based on platform
     if (platform === "iOS") {
         // For iOS devices
-        appStoreLink = "itms-apps://apps.apple.com/app/id1609515393";
+        appStoreLink = "itms-apps://apps.apple.com/app/id6744176430";
         // Keep other links as default (regular web links)
     } else if (platform === "Android") {
         // For Android devices
-        googlePlayLink = "market://details?id=com.TheoreticalStudio.Regrow";
+        googlePlayLink = "market://details?id=com.TheoreticalStudio.PhoneFlip";
         telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
     } else if (platform === "unknown") {
         // For desktops or unknown devices
