@@ -410,8 +410,8 @@ td {
   display: none !important;
 }
 
-.privacy-top-padding{
-  padding-top: 2rem;
+.top-padding{
+  padding-top: 5rem;
 }
 
 /* Button and link styles - prevent text selection and ensure pointer cursor */
@@ -493,3 +493,4 @@ button,
 .off{
   display: none !important;
 }
+

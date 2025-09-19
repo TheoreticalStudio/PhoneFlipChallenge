@@ -6,445 +6,133 @@ permalink: /phoneflipchallenge_store.html
 noindex: true
 ---
 
-<style>
-    /* Add your store-specific styles here */
-    .merchandise-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 2rem;
-        padding: 2rem 0;
-    }
-    
-    .merchandise-card {
-        background: #fff;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-    }
-    
-    .merchandise-card:hover {
-        transform: translateY(-5px);
-    }
-</style>
+<!-- Store-specific styles are in /css/store.css -->
     <!-- Products Section -->
-    <section id="products" class="section">
+    <section id="products" class="section store-section">
         <div class="container">
             <h2 class="text-center mb-lg">Vote for Your Favorites</h2>
-            <p class="text-center mb-xl">Swipe right to like, left to dislike. Help us decide which products to make!</p>
+            <p class="text-center mb-xl">Help us decide which products to make by voting with the buttons below each item!</p>
             
-            <div class="tinder-container">
-                <!-- Product cards will be inserted here by JavaScript -->
-                <div id="tinderCards"></div>
-                
-                <!-- Action Buttons -->
-                <div class="tinder-actions">
-                    <button class="tinder-btn dislike-btn" id="dislikeBtn">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <button class="tinder-btn like-btn" id="likeBtn">
-                        <i class="fas fa-heart"></i>
-                    </button>
-                </div>
-                
-                <!-- Thank You Card (initially hidden) -->
-                <div id="thankYouCard" class="thank-you-card" style="display: none;">
-                    <h3>Thank You for Voting!</h3>
-                    <p>You've voted on all available products. Join our waitlist to be notified when they're available!</p>
-                    <a href="#waitlist" class="btn btn-accent">Join Waitlist</a>
-                </div>
-
-                <!-- Demo Products Section (initially hidden) -->
-                <div id="demoProducts" class="demo-products" style="display: none;">
-                    <h3 class="text-center mb-lg">Our Products</h3>
-                    <p class="text-center mb-xl">Check out our selection of Phone Flip Challenge merchandise</p>
-                    
-                    <div class="products-grid">
-                        <!-- Demo Product 1 -->
-                        <div class="demo-product-card">
-                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="T-Shirt" class="demo-product-image">
-                            <div class="demo-product-info">
-                                <h4>Phone Flip T-Shirt</h4>
-                                <p>Show off your flipping skills in style</p>
-                                <span class="price">$29.99</span>
-                                <button class="btn btn-outline">Pre-order Now</button>
-                            </div>
-                        </div>
-                        
-                        <!-- Demo Product 2 -->
-                        <div class="demo-product-card">
-                            <img src="https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Phone Case" class="demo-product-image">
-                            <div class="demo-product-info">
-                                <h4>Phone Case</h4>
-                                <p>Protect your phone in style</p>
-                                <span class="price">$19.99</span>
-                                <button class="btn btn-outline">Pre-order Now</button>
-                            </div>
-                        </div>
-                        
-                        <!-- Demo Product 3 -->
-                        <div class="demo-product-card">
-                            <img src="https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sticker Pack" class="demo-product-image">
-                            <div class="demo-product-info">
-                                <h4>Sticker Pack</h4>
-                                <p>Decorate your devices</p>
-                                <span class="price">$9.99</span>
-                                <button class="btn btn-outline">Pre-order Now</button>
-                            </div>
-                        </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-product-id="1">
+                    <h3 class="product-title">Hoodie</h3>
+                    <div class="product-image">
+                        <img src="{{ '/img/merch/merch_01.png' | relative_url }}" alt="Phone Flip Hoodie">
                     </div>
+                    <div class="product-actions">
+                        <button id="dislike-1" class="btn dislike-btn" data-action="dislike" data-product-id="1" data-product-name="Hoodie">
+                            <i class="fas fa-times"></i><span>Dislike</span>
+                        </button>
+                        <button id="like-1" class="btn like-btn" data-action="like" data-product-id="1" data-product-name="Hoodie">
+                            <i class="fas fa-heart"></i><span>Like</span>
+                        </button>
+                    </div>
+                    <div class="product-voted" style="display: none;">
+                        <span class="voted-message">Thank you for your vote!</span>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-product-id="2">
+                    <h3 class="product-title">Phone Case</h3>
+                    <div class="product-image">
+                        <img src="{{ '/img/merch/merch_02.png' | relative_url }}" alt="Phone Flip Case">
+                    </div>
+                    <div class="product-actions">
+                        <button id="dislike-2" class="btn dislike-btn" data-action="dislike" data-product-id="2" data-product-name="Phone Case">
+                            <i class="fas fa-times"></i><span>Dislike</span>
+                        </button>
+                        <button id="like-2" class="btn like-btn" data-action="like" data-product-id="2" data-product-name="Phone Case">
+                            <i class="fas fa-heart"></i><span>Like</span>
+                        </button>
+                    </div>
+                    <div class="product-voted" style="display: none;">
+                        <span class="voted-message">Thank you for your vote!</span>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-product-id="3">
+                    <h3 class="product-title">Sticker Pack</h3>
+                    <div class="product-image">
+                        <img src="{{ '/img/merch/merch_03.png' | relative_url }}" alt="Phone Flip Sticker Pack">
+                    </div>
+                    <div class="product-actions">
+                        <button id="dislike-3" class="btn dislike-btn" data-action="dislike" data-product-id="3" data-product-name="Sticker Pack">
+                            <i class="fas fa-times"></i><span>Dislike</span>
+                        </button>
+                        <button id="like-3" class="btn like-btn" data-action="like" data-product-id="3" data-product-name="Sticker Pack">
+                            <i class="fas fa-heart"></i><span>Like</span>
+                        </button>
+                    </div>
+                    <div class="product-voted" style="display: none;">
+                        <span class="voted-message">Thank you for your vote!</span>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-product-id="4">
+                    <h3 class="product-title">Baseball Cap</h3>
+                    <div class="product-image">
+                        <img src="{{ '/img/merch/merch_04.png' | relative_url }}" alt="Phone Flip Baseball Cap">
+                    </div>
+                    <div class="product-actions">
+                        <button id="dislike-4" class="btn dislike-btn" data-action="dislike" data-product-id="4" data-product-name="Baseball Cap">
+                            <i class="fas fa-times"></i><span>Dislike</span>
+                        </button>
+                        <button id="like-4" class="btn like-btn" data-action="like" data-product-id="4" data-product-name="Baseball Cap">
+                            <i class="fas fa-heart"></i><span>Like</span>
+                        </button>
+                    </div>
+                    <div class="product-voted" style="display: none;">
+                        <span class="voted-message">Thank you for your vote!</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="voting-complete" style="display: none;">
+                <h3 class="text-center">Thank you for participating in the vote!</h3>
+                <p class="text-center">Your preferences will help us select the best products for production.</p>
+                <div class="text-center">
+                    <a href="#waitlist" class="btn btn-accent">Join Waitlist</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Waitlist Section -->
-    <section id="waitlist" class="waitlist">
-        <div class="container">
-            <div class="waitlist-content">
-                <h2 class="mb-sm">Спасибо, что выбрали понравившиеся товары!</h2>
-                <p class="mb-lg">Оставьте свою почту, чтобы первыми узнать о запуске производства самых популярных товаров. Ранние подписчики получат специальные предложения!</p>
-                
-                <form id="waitlist-form" class="waitlist-form">
-                    <input type="email" class="form-input" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-accent">Join Waitlist</button>
-                </form>
+    <section>
+        <div class="container flex-center">
+          <div class="follow-block">
+            <div>
+              <h1>Follow us</h1>
+              <p>Stay updated on the voting results through our social media</p>
+              <p>#phoneflipchallenge #phoneflip</p>
             </div>
-            
-            <!-- Thank You Card (initially hidden) -->
-            <div id="thankYouCard" class="thank-you-card" style="display: none;">
-                <h3>Thank You for Voting!</h3>
-                <p>You've voted on all available products. Join our waitlist to be notified when they're available!</p>
-                <a href="#waitlist" class="btn btn-accent">Join Waitlist</a>
+            <div class="row-container">
+              <a href="#" class="circle-button">
+                <img src="{{ '/img/icons/tex_ui_Discord.svg' | relative_url }}" class="social-icons" alt="discord">
+              </a>
+              <a href="#" class="circle-button">
+                <img src="{{ '/img/icons/tex_ui_icons_instagram.svg' | relative_url }}" class="social-icons" alt="istagram">
+              
+              </a>
+              <a href="#" class="circle-button">
+                <img src="{{ '/img/icons/tex_ui_icons_Youtube.svg' | relative_url }}" class="social-icons" alt="youtube">
+              </a>
+              <a href="#" class="circle-button">
+                <img src="{{ '/img/icons/tex_ui_icons_TikTok.svg' | relative_url }}" class="social-icons" alt="tiktok">
+              </a>
             </div>
-
-            <!-- Demo Products Section (initially hidden) -->
-            <div id="demoProducts" class="demo-products" style="display: none;">
-                <h3 class="text-center mb-lg">Our Products</h3>
-                <p class="text-center mb-xl">Check out our selection of Phone Flip Challenge merchandise</p>
-                
-                <div class="products-grid">
-                    <!-- Demo Product 1 -->
-                    <div class="demo-product-card">
-                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="T-Shirt" class="demo-product-image">
-                        <div class="demo-product-info">
-                            <h4>Phone Flip T-Shirt</h4>
-                            <p>Show off your flipping skills in style</p>
-                            <span class="price">$29.99</span>
-                            <button class="btn btn-outline">Pre-order Now</button>
-                        </div>
-                    </div>
-                    
-                    <!-- Demo Product 2 -->
-                    <div class="demo-product-card">
-                        <img src="https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Phone Case" class="demo-product-image">
-                        <div class="demo-product-info">
-                            <h4>Phone Case</h4>
-                            <p>Protect your phone in style</p>
-                            <span class="price">$19.99</span>
-                            <button class="btn btn-outline">Pre-order Now</button>
-                        </div>
-                    </div>
-                    
-                    <!-- Demo Product 3 -->
-                    <div class="demo-product-card">
-                        <img src="https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sticker Pack" class="demo-product-image">
-                        <div class="demo-product-info">
-                            <h4>Sticker Pack</h4>
-                            <p>Decorate your devices</p>
-                            <span class="price">$9.99</span>
-                            <button class="btn btn-outline">Pre-order Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
+    <img src="{{ '/img/dots-up.png' | relative_url }}" class="left-top-angle" alt="dots">
+    <img src="{{ '/img/dots.png' | relative_url }}" class="right-bot-angle" alt="dots">
+    
+    <!-- Store JavaScript -->
+    <script src="{{ '/js/store.js' | relative_url }}"></script>
 
-<!-- Waitlist Section -->
-<section id="waitlist" class="waitlist">
-    <div class="container">
-        <div class="waitlist-content">
-            <h2 class="mb-sm">Спасибо, что выбрали понравившиеся товары!</h2>
-            <p class="mb-lg">Оставьте свою почту, чтобы первыми узнать о запуске производства самых популярных товаров. Ранние подписчики получат специальные предложения!</p>
-            
-            <form id="waitlist-form" class="waitlist-form">
-                <input type="email" class="form-input" placeholder="Enter your email" required>
-                <button type="submit" class="btn btn-accent">Join Waitlist</button>
-            </form>
-            
-            <p class="text-small" style="margin-top: 1rem; color: var(--medium-gray); font-size: 0.875rem;">
-                We respect your privacy. Unsubscribe at any time.
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="logo mb-md">
-                <img src="images/logo-white.png" alt="Theoretical Studio" height="40">
-            </div>
-            <p class="mb-md"> 2025 Theoretical Studio. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Additional scripts -->
-<script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
-
-<!-- JavaScript -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Product data
-        const products = [
-            {
-                id: 't-shirt',
-                title: 'Phone Flip T-Shirt',
-                description: 'Show off your flipping skills with this stylish t-shirt featuring the Phone Flip Challenge logo.',
-                image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-            },
-            {
-                id: 'phone-case',
-                title: 'Phone Case',
-                description: 'Protect your phone in style with our custom Phone Flip Challenge case. Perfect for practicing your flips!',
-                image: 'https://images.unsplash.com/photo-1601784557286-5e0c9a3d8abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-            },
-            {
-                id: 'sticker-pack',
-                title: 'Sticker Pack',
-                description: 'Decorate your laptop, phone, or notebook with these high-quality vinyl stickers.',
-                image: 'https://images.unsplash.com/photo-1581235720705-4a31b1a9f1c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-            }
-        ];
-
-        const tinderCards = document.getElementById('tinderCards');
-        const likeBtn = document.getElementById('likeBtn');
-        const dislikeBtn = document.getElementById('dislikeBtn');
-        const thankYouCard = document.getElementById('thankYouCard');
-        let currentCardIndex = 0;
-        let startX, startY, moveX, moveY;
-
-        // Initialize the first card
-        function createCard(product) {
-            const card = document.createElement('div');
-            card.className = 'tinder-card';
-            card.innerHTML = `
-                <img src="${product.image}" alt="${product.title}">
-                <div class="card-content">
-                    <h3>${product.title}</h3>
-                    <p>${product.description}</p>
-                </div>
-            `;
-            
-            // Add touch events for swipe
-            card.addEventListener('touchstart', handleTouchStart, { passive: false });
-            card.addEventListener('touchmove', handleTouchMove, { passive: false });
-            card.addEventListener('touchend', handleTouchEnd);
-            
-            // Add mouse events for desktop
-            card.addEventListener('mousedown', handleMouseDown);
-            
-            return card;
-        }
-
-        // Show the next card or thank you message
-        function showNextCard() {
-            currentCardIndex++;
-            
-            if (currentCardIndex < products.length) {
-                const card = createCard(products[currentCardIndex]);
-                tinderCards.innerHTML = '';
-                tinderCards.appendChild(card);
-            } else {
-                // All cards have been shown
-                tinderCards.style.display = 'none';
-                document.querySelector('.tinder-actions').style.display = 'none';
-                thankYouCard.style.display = 'block';
-                
-                // Show demo products section after a short delay
-                setTimeout(() => {
-                    const demoProducts = document.getElementById('demoProducts');
-                    if (demoProducts) {
-                        demoProducts.style.display = 'block';
-                        demoProducts.scrollIntoView({ behavior: 'smooth' });
-                    }
-                }, 1000);
-            }
-        }
-
-        // Handle swipe action
-        function handleVote(liked) {
-            const currentProduct = products[currentCardIndex];
-            console.log(`${liked ? 'Liked' : 'Disliked'}:`, currentProduct.title);
-            
-            // Here you would typically send the vote to your server
-            const votes = JSON.parse(localStorage.getItem('productVotes') || '{}');
-            votes[currentProduct.id] = liked ? 'like' : 'dislike';
-            localStorage.setItem('productVotes', JSON.stringify(votes));
-            
-            // Animate card out
-            const card = document.querySelector('.tinder-card');
-            if (card) {
-                card.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
-                card.style.transform = `translateX(${liked ? '100%' : '-100%'}) rotate(${liked ? '30deg' : '-30deg'})`;
-                card.style.opacity = '0';
-                
-                // Show next card after animation
-                setTimeout(showNextCard, 300);
-            }
-        }
-
-        // Touch event handlers
-        function handleTouchStart(e) {
-            const touch = e.touches[0];
-            startX = touch.clientX;
-            startY = touch.clientY;
-            this.style.transition = 'none';
-        }
-
-        function handleTouchMove(e) {
-            if (!startX || !startY) return;
-            
-            const touch = e.touches[0];
-            moveX = touch.clientX - startX;
-            moveY = touch.clientY - startY;
-            
-            // Only prevent default if we're swiping horizontally
-            if (Math.abs(moveX) > 10) {
-                e.preventDefault();
-            }
-            
-            // Calculate rotation based on distance
-            const rotation = Math.min(Math.max(moveX / 10, -15), 15);
-            
-            // Apply transform
-            this.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
-            
-            // Add class based on direction
-            if (moveX > 30) {
-                this.classList.add('swiping-right');
-                this.classList.remove('swiping-left');
-            } else if (moveX < -30) {
-                this.classList.add('swiping-left');
-                this.classList.remove('swiping-right');
-            } else {
-                this.classList.remove('swiping-left', 'swiping-right');
-            }
-        }
-
-        function handleTouchEnd() {
-            if (Math.abs(moveX) > 100) {
-                // Swipe threshold reached
-                handleVote(moveX > 0);
-            } else {
-                // Return to center
-                this.style.transition = 'transform 0.3s ease';
-                this.style.transform = 'translateX(0) rotate(0)';
-                this.classList.remove('swiping-left', 'swiping-right');
-            }
-            
-            // Reset values
-            startX = startY = moveX = moveY = null;
-        }
-
-        // Mouse event handlers for desktop
-        function handleMouseDown(e) {
-            startX = e.clientX;
-            startY = e.clientY;
-            this.style.transition = 'none';
-            
-            document.addEventListener('mousemove', handleMouseMove);
-            document.addEventListener('mouseup', handleMouseUp);
-        }
-
-        function handleMouseMove(e) {
-            if (startX === null || startY === null) return;
-            
-            moveX = e.clientX - startX;
-            moveY = e.clientY - startY;
-            
-            // Calculate rotation based on distance
-            const rotation = Math.min(Math.max(moveX / 10, -15), 15);
-            
-            // Apply transform
-            const card = document.querySelector('.tinder-card');
-            if (card) {
-                card.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
-                
-                // Add class based on direction
-                if (moveX > 30) {
-                    card.classList.add('swiping-right');
-                    card.classList.remove('swiping-left');
-                } else if (moveX < -30) {
-                    card.classList.add('swiping-left');
-                    card.classList.remove('swiping-right');
-                } else {
-                    card.classList.remove('swiping-left', 'swiping-right');
-                }
-            }
-        }
-
-        function handleMouseUp() {
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('mouseup', handleMouseUp);
-            
-            if (Math.abs(moveX) > 100) {
-                // Swipe threshold reached
-                handleVote(moveX > 0);
-            } else {
-                // Return to center
-                const card = document.querySelector('.tinder-card');
-                if (card) {
-                    card.style.transition = 'transform 0.3s ease';
-                    card.style.transform = 'translateX(0) rotate(0)';
-                    card.classList.remove('swiping-left', 'swiping-right');
-                }
-            }
-            
-            // Reset values
-            startX = startY = moveX = moveY = null;
-        }
-
-        // Button click handlers
-        likeBtn.addEventListener('click', () => handleVote(true));
-        dislikeBtn.addEventListener('click', () => handleVote(false));
-
-        // Initialize the first card
-        if (products.length > 0) {
-            const firstCard = createCard(products[0]);
-            tinderCards.appendChild(firstCard);
-        }
-
-        // Handle waitlist form submission
-        const waitlistForm = document.getElementById('waitlist-form');
-        if (waitlistForm) {
-            waitlistForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                const email = this.querySelector('input[type="email"]').value;
-                
-                // Here you would typically send this to your server
-                console.log('Waitlist signup:', email);
-                
-                // Show success message
-                alert('Thank you for joining our waitlist!');
-                this.reset();
-            });
-        }
-    });
-</script>
+    <!-- Font Awesome (make sure to replace with your kit code) -->
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <!-- Main JavaScript -->
+    <script src="{{ '/js/main.js' | relative_url }}"></script>
