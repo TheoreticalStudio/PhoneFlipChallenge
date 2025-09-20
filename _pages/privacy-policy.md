@@ -10,11 +10,12 @@ noindex: true
 
 Last updated June 9, 2024
 
-This privacy notice for Theoretical Studio ("**Company**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
+This privacy notice for Theoretical Studio ("**Company**," "**we**," "**us**," or "**our**") describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"). This Privacy Policy applies to all platforms where our Services are available, including mobile applications (iOS, Android), PWA (Progressive Web App), and Telegram Mini App. You may interact with our Services, for example:
 
-*   Download and use our mobile application (Phone Flip), or any other application of ours that links to this privacy notice
-    
-*    Engage with us in other related ways, including any sales, marketing, or events
+*   Download and use our mobile application (Phone Flip Challenge), or any other application of ours that links to this privacy notice
+
+*   Engage with us in other related ways, including any sales, marketing, or events
+
     
 
 **Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@theoretical.studio. 
@@ -168,8 +169,6 @@ We also may need to share your personal information in the following situations:
 
 *   **Business Transfers.** We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company. 
     
-*   **Offer Wall.** Our application(s) may display a third-party hosted "offer wall." Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward. 
-    
 
 # 5\. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
 
@@ -207,9 +206,8 @@ We have implemented appropriate and reasonable technical and organizational secu
 
 **In Short:** We do not knowingly collect data from or market to children under 18 years of age. 
 
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at privacy@theoretical.studio. 
+We do not knowingly collect personal information from or market to children under the age of 13. By using the Services, you represent that you are at least 13 years old, or that you are the parent or guardian of a child under 13 and consent to your child’s use of the Services. If we learn that personal information from a child under 13 has been collected without parental consent, we will deactivate the account and take reasonable steps to promptly delete such information from our records. If you become aware that your child has provided us with personal information without your consent, please contact us at privacy@theoretical.studio.
 
-  
 
 # 9\. WHAT ARE YOUR PRIVACY RIGHTS? 
 
