@@ -161,49 +161,65 @@ Theoretical Studio MAKES NO WARRANTIES ABOUT (I) THE ACCURACY, COMPLETENESS, OR 
 NO ORAL OR WRITTEN ADVICE PROVIDED BY Theoretical Studio OR ANY AUTHORIZED REPRESENTATIVE OR THIRD PARTY SHALL CREATE A WARRANTY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF, OR LIMITATIONS ON, IMPLIED WARRANTIES OR THE LIMITATIONS ON THE APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO SOME OR ALL OF THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY TO YOU.  
 THE FOREGOING DISCLAIMER OF REPRESENTATIONS AND WARRANTIES SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND SHALL SURVIVE ANY TERMINATION OR EXPIRATION OF THIS EULA AGREEMENT OR YOUR USE OF THIS SITE OR THE SERVICES FOUND AT THIS SITE.
 
-# 13\. LIMITATION OF LIABILITY
+# 13\. PHYSICAL RISKS AND DISCLAIMER
+
+You acknowledge and agree that the Application is a game that may encourage physical interaction with your mobile device, including but not limited to tossing, flipping, or otherwise handling your device, which may pose risks to your device, surrounding property, or personal safety.
+
+By using the Application, you expressly accept and assume all risks related to such activities. Specifically, you agree that:
+
+Device and property risk: Theoretical Studio is not responsible for any damage to your mobile device, accessories, or any other property that may occur as a result of playing the Application.
+
+Personal safety risk: Theoretical Studio is not responsible for any bodily injury, health issues, or death that may result from your use of the Application.
+
+User responsibility: You are solely responsible for ensuring that you play the Application in a safe environment and in a manner that does not endanger yourself, others, or property.
+
+Assumption of risk: You play the Application entirely at your own risk.
+
+Limitation of liability: To the maximum extent permitted by applicable law, Theoretical Studio disclaims all liability for any damages, losses, or injuries of any kind arising out of or related to your use of the Application.
+
+# 14\. LIMITATION OF LIABILITY
 
 TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO EVENT SHALL Theoretical Studio, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND ALL THIRD-PARTY SERVICE PROVIDERS, BE LIABLE TO YOU OR ANY OTHER PERSON OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING ANY DAMAGES THAT MAY RESULT FROM (I) THIS AGREEMENT, (II) THE ACCURACY, COMPLETENESS, OR CONTENT ON THIS APPLICATION, (III) OR FROM THE FURNISHING, PERFORMANCE, INSTALLATION, OR USE OF THE APPLICATION, WHETHER DUE TO A BREACH OF CONTRACT, BREACH OF WARRANTY, OR THE NEGLIGENCE OF Theoretical Studio OR ANY OTHER PARTY, EVEN IF Theoretical Studio IS ADVISED BEFOREHAND OF THE POSSIBILITY OF SUCH DAMAGES.  
 SOME JURISDICTIONS DO NOT ALLOW A LIMITATION OF LIABILITY FOR DEATH, PERSONAL INJURY, FRAUDULENT MISREPRESENTATIONS OR CERTAIN INTENTIONAL OR NEGLIGENT ACTS, OR VIOLATION OF SPECIFIC STATUTES, OR THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO SOME OR ALL OF THE ABOVE LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU. IN NO EVENT SHALL Theoretical Studio’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES (EXCEPT AS REQUIRED BY APPLICABLE LAW) EXCEED THE AMOUNT ACTUALLY PAID BY YOU FOR THE APPLICATION. THIS LIMITATION APPLIES, BUT IT IS NOT LIMITED TO ANYTHING RELATED TO THE APPLICATION, SERVICES, OR CONTENT MADE AVAILABLE THROUGH THE APPLICATION. YOU AGREE THAT THE PROVISIONS IN THIS EULA AGREEMENT THAT LIMIT LIABILITY ARE ESSENTIAL TERMS OF THIS EULA AGREEMENT.  
 THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND SHALL SURVIVE ANY TERMINATION OR EXPIRATION OF THIS EULA AGREEMENT.
 
-# 14\. INDEMNITY
+# 15\. INDEMNITY
 
 You agree to protect, defend, indemnify and hold harmless Theoretical Studio and its officers, directors, employees, agents from and against any and all claims, demands, costs, expenses, losses, liabilities, and damages of every kind and nature (including, without limitation, reasonable attorneys’ fees) imposed upon or incurred by Theoretical Studio directly or indirectly arising from (i) your use of the Application; (ii) your violation of any provision of this Agreement; and/or (iii) your violation of any third-party right, including without limitation any intellectual property or other proprietary rights. The indemnification obligations under this section shall survive any termination or expiration of this Agreement or your use of Application.
 
-# 15\. AVAILABILITY OF APPLICATION
+# 16\. AVAILABILITY OF APPLICATION
 
 Subject to the terms and conditions of this Agreement and our policies, we shall use commercially reasonable efforts to attempt to provide this Application on 24/7 basis. You acknowledge and agree that from time to time this Application may be inaccessible for any reason including, but not limited to, periodic maintenance, repairs or replacements that we undertake from time to time, or other causes beyond our control including, but not limited to, interruption or failure of telecommunication or digital transmission links or other failures.  
 You acknowledge and agree that we have no control over the availability of this Application on a continuous or uninterrupted basis and that we assume no liability to you or any other party with regard thereto.
 
-# 16\. TERMINATION
+# 17\. TERMINATION
 
 This EULA agreement is effective from the date you first download, install or use the Application and shall continue until terminated. You may terminate this Agreement by deleting the Application and all copies thereof from your Mobile Device.  
 This EULA agreement will also be terminated immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Application. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.  
 Theoretical Studio reserves the right to cease offering or providing Application at any time, for any or no reason, and without prior notice. Although Theoretical Studio makes a great effort to maximize the lifespan of the Application, it might be, that the Application we offer will be discontinued. If that is the case, this EULA agreement will be terminated, and the Application will no longer be supported by Theoretical Studio.  
 Upon termination, all rights granted to you under this EULA agreement will also terminate and you must cease all use of the Application and delete all copies of the Application from your Mobile Device and account.
 
-# 17\. COMPLIANCE WITH LOCAL LAWS
+# 18\. COMPLIANCE WITH LOCAL LAWS
 
 Theoretical Studio makes no representation or warranty that all the content available on this Application is appropriate in every country or jurisdiction and use of this Application from countries or jurisdictions where its content is illegal is prohibited. Users who choose to use this Software are responsible for compliance with all local laws, rules, and regulations.
 
-# 18\. GOVERNING LAW
+# 19\. GOVERNING LAW
 
 This EULA agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation shall be governed by and construed in accordance with the laws of Kazakhstan, to the exclusion of conflict of law rules.
 
-# 19\. TITLES AND HEADINGS
+# 20\. TITLES AND HEADINGS
 
 The titles and headings of this EULA agreement are for convenience and ease of reference only and shall not be utilized in any way to construe or interpret the agreement of the parties as otherwise set forth herein.  
 
-# 20\. LIMITATION OF TIME TO FILE CLAIMS  
+# 21\. LIMITATION OF TIME TO FILE CLAIMS  
 
 ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE APPLICATION MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.  
 
-# 21\. SEVERABILITY
+# 22\. SEVERABILITY
 
 Each covenant and agreement in this EULA agreement shall be construed for all purposes to be a separate and independent covenant or agreement. If a court of competent jurisdiction holds any provision (or portion of a provision) of this EULA agreement to be illegal, invalid, or otherwise unenforceable, the remaining provisions (or portions of provisions) of this EULA agreement shall not be affected thereby and shall be found to be valid and enforceable to the fullest extent permitted by law.
 
-# 22\. CONTACT INFORMATION
+# 23\. CONTACT INFORMATION
 
 If you have any questions about this EULA agreement, please contact us by email or regular mail at the following address:  
 Theoretical Studio LLP  
