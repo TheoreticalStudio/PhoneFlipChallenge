@@ -7,12 +7,13 @@ noindex: true
 ---
 # EULA
 
-**Last updated:** February 24, 2024  
-**Last Revised:** February 28, 2024
+**Last updated:** September 20, 2025  
+**Last Revised:** September 20, 2025
 
 ## MOBILE APPLICATION END-USER LICENSE AGREEMENT (EULA)
 
 PLEASE READ THIS MOBILE APPLICATION END-USER LICENSE AGREEMENT ("EULA AGREEMENT") CAREFULLY, BEFORE COMPLETING THE DOWNLOAD OR INSTALLATION PROCESS OR USING THE APPLICATION, AS IT CONTAINS IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS AND REMEDIES.
+“This Agreement shall be governed by the laws of Republic of Kazakhstan, without regard to conflict of law principles. Users outside of Republic of Kazakhstan are responsible for compliance with local laws.”
 
 # 1\. OVERVIEW
 
@@ -24,7 +25,7 @@ BY DOWNLOADING /INSTALLING /USING THE APPLICATION YOU ACKNOWLEDGE THAT YOU HAVE 
 
 # 2\. ELIGIBILITY
 
-Our Application is available only to Users who can form legally binding contracts under the applicable law. By downloading or using this Application, you represent and warrant that you are (i) at least eighteen (18) years of age, (ii) otherwise recognized as being able to form legally binding contracts under applicable law, and (iii) are not a person barred from purchasing or using the Application e under the laws of the Kazakhstan or other applicable jurisdiction.  
+Our Application is available only to Users who can form legally binding contracts under the applicable law. By downloading or using this Application, you represent and warrant that you are (i) at least thirteen (13) years of age, or the minimum age of digital consent in your country, and if under 18, with parental or legal guardian consent, (ii) otherwise recognized as being able to form legally binding contracts under applicable law, and (iii) are not a person barred from purchasing or using the Application under the laws of the Kazakhstan or other applicable jurisdiction.  
 If you are entering into this EULA agreement on behalf of a company or any corporate entity, you represent and warrant that you have the legal authority to bind such corporate entity to the terms and conditions contained in this EULA agreement, in which case the terms “you”, “your”, or “User” shall refer to such corporate entity. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Application, and you must not accept this EULA agreement. If, after your electronic acceptance of this Agreement, Theoretical Studio finds that you do not have the legal authority to bind such a corporate entity, you will be personally responsible for the obligations contained in this EULA agreement.
 
 # 3\. LICENSE GRANT
@@ -60,7 +61,7 @@ Theoretical Studio content is provided to you “as is”, “as available” an
 
 # 6\. COLLECTION AND USE OF YOUR INFORMATION
 
-You acknowledge that when you download, install, or use the Application, Theoretical Studio may use automatic means (including, for example, cookies and web beacons) to collect information about your Mobile Device and about your use of the Application. You also may be required to provide certain information about yourself as a condition to downloading, installing, or using the Application or certain of its features or functionality. All information we collect through or in connection with this Application is subject to our Privacy policy. By downloading, installing, using, and providing information to or through this Application, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.
+You acknowledge that when you download, install, or use the Application, Theoretical Studio may use automatic means (including, for example, cookies and web beacons) to collect information about your Mobile Device and about your use of the Application. You also may be required to provide certain information about yourself as a condition to downloading, installing, or using the Application or certain of its features or functionality. All information we collect through or in connection with this Application is subject to our Privacy policy. By downloading, installing, using, and providing information to or through this Application, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy phoneflipchallenge.com/privacy-policy.
 
 # 7\. UPDATES
 
@@ -71,7 +72,7 @@ You shall promptly download and install all Updates and acknowledge and agree th
 
 # 8\. THIRD-PARTY MATERIALS
 
-The Application may display, include, or make available third-party content (including data, information, applications, and other products, services, and/or materials) or provide links to third-party websites or services, including through third-party advertising ("Third-Party Materials"). You acknowledge and agree that Theoretical Studio is not responsible for Third-Party Materials, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality, or any other aspect thereof. Theoretical Studio does not assume and will not have any liability or responsibility to you or any other person or entity for any Third-Party Materials. Third-Party Materials and links thereto are provided solely as a convenience to you, and you access and use them entirely at your own risk and subject to such third parties terms and conditions.
+The Application may display, include, or make available third-party content (including data, information, applications, and other products, services, and/or materials) or provide links to third-party websites or services ("Third-Party Materials"). You acknowledge and agree that Theoretical Studio is not responsible for Third-Party Materials, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality, or any other aspect thereof. Theoretical Studio does not assume and will not have any liability or responsibility to you or any other person or entity for any Third-Party Materials. Third-Party Materials and links thereto are provided solely as a convenience to you, and you access and use them entirely at your own risk and subject to such third parties’ terms and conditions.
 
 # 9\. USER SUBMISSIONS
 
@@ -81,68 +82,128 @@ your User Submissions do not establish a confidential relationship or obligate T
 Theoretical Studio has no obligation, either express or implied, to develop or use your User Submissions, and no compensation is due to you or to anyone else for any intentional or unintentional use of your User Submissions.  
 Theoretical Studio shall own exclusive rights (including all intellectual property and other proprietary rights) to any User Submissions provided to the Theoretical Studio and shall be entitled to the unrestricted use and dissemination of any User Submissions posted to or through the Software for any purpose, commercial or otherwise, without acknowledgment or compensation to you or to anyone else.
 
-# 10\. DOWNLOADING THE APPLICATION FROM THE APPLE APP STORE
+# 10\. ACCESSING THE APPLICATION THROUGH THIRD-PARTY PLATFORMS
 
-The following applies to the Application accessed through or downloaded from the Apple App Store (“App Store Sourced Application”):  
-You acknowledge and agree that (i) this EULA agreement is concluded between you and Theoretical Studio only, and not Apple; and (ii) Theoretical Studio, not Apple, is solely responsible for the App Store Sourced Application and content thereof. Your use of the App Store Sourced Application must comply with the Apple App Store Terms of Service.  
-You will use the App Store Sourced Application only (i) on an Apple-branded product that runs iOS (Apple’s proprietary operating system software); and (ii) as permitted by the “Usage Rules” set forth in the Apple App Store Terms of Service.  
-You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App Store Sourced Application.  
-In the event of any failure of any App Store Sourced Application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App Store Sourced Application to you and to the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App Store Sourced Application. As between Theoretical Studio and Apple, any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty will be the sole responsibility of Theoretical Studio.  
-You and Theoretical Studio acknowledge that, as between Theoretical Studio and Apple, Apple is not responsible for addressing any claims you have or any claims of any third party relating to the App Store Sourced Application in your possession and use of the App Store Sourced Application, including but not limited to (i) product liability claims; (ii) any claim that an App Store Sourced Application fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation.  
-You and Theoretical Studio acknowledge that, in the event of any third party claim that an App Store Sourced Application or your possession and use of that App Store Source Application infringes that third party’s intellectual property rights, as between Theoretical Studio and Apple, Theoretical Studio, not Apple, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim to the extent required by this EULA agreement.  
-You and Theoretical Studio, acknowledge and agree that Apple and its subsidiaries are third-party beneficiaries of this EULA agreement and that upon your acceptance of this EULA agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this EULA agreement.  
-By using the App Store Sourced Application you represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.  
-Without limiting any other terms of this EULA agreement, you must comply with all applicable third-party terms of agreement when using the App Store Sourced Application.  
+Depending on the platform you use to access the Application, additional terms may apply. By using the Application, you agree to comply with the terms of the relevant platform.
 
-# 11\. DISCLAIMER OF WARRANTIES
+## 10A\. APPLE APP STORE
+
+The following applies to the Application you acquire from the Apple App Store (“Apple Sourced Application”):
+
+You acknowledge and agree that this EULA is concluded between you and Theoretical Studio only, not with Apple Inc. (“Apple”), and Theoretical Studio, not Apple, is solely responsible for the Apple Sourced Application and its content.
+
+Your use of the Apple Sourced Application must comply with the Apple Media Services Terms and Conditions.
+
+Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the Apple Sourced Application. In the event of any failure of the Apple Sourced Application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the Apple Sourced Application to you (if applicable). To the maximum extent permitted by applicable law, Apple will have no other warranty obligation with respect to the Apple Sourced Application.
+
+You and Theoretical Studio acknowledge that Apple is not responsible for addressing any claims by you or a third party relating to the Apple Sourced Application or your possession and use thereof, including but not limited to (i) product liability claims, (ii) any claim that the Apple Sourced Application fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer protection or similar legislation.
+
+You and Theoretical Studio acknowledge that, in the event of any third-party claim that the Apple Sourced Application or your possession and use of that Apple Sourced Application infringes that third party’s intellectual property rights, Theoretical Studio, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of any such claim.
+
+You acknowledge and agree that Apple and Apple’s subsidiaries are third-party beneficiaries of this EULA and that, upon your acceptance, Apple will have the right (and will be deemed to have accepted the right) to enforce this EULA against you as a third-party beneficiary.
+
+## 10B\. GOOGLE PLAY STORE
+
+The following applies to the Application you acquire from Google Play (“Google Play Sourced Application”):
+
+You acknowledge and agree that this EULA is concluded between you and Theoretical Studio only, not with Google LLC or its affiliates (“Google”), and Theoretical Studio, not Google, is solely responsible for the Google Play Sourced Application and its content.
+
+Your use of the Google Play Sourced Application must comply with the Google Play Terms of Service and Google Play Business and Program Policies.
+
+Google has no obligation whatsoever to furnish any maintenance and support services with respect to the Google Play Sourced Application. To the maximum extent permitted by applicable law, Google will have no warranty obligation or liability with respect to the Google Play Sourced Application.
+
+You and Theoretical Studio acknowledge that Google is not responsible for addressing any claims by you or a third party relating to the Google Play Sourced Application or your possession and use thereof, including but not limited to (i) product liability claims, (ii) any claim that the Google Play Sourced Application fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer protection or similar legislation.
+
+You and Theoretical Studio acknowledge that, in the event of any third-party claim that the Google Play Sourced Application or your possession and use of that Google Play Sourced Application infringes that third party’s intellectual property rights, Theoretical Studio, not Google, will be solely responsible for the investigation, defense, settlement, and discharge of any such claim.
+
+You acknowledge and agree that Google and Google’s affiliates are third-party beneficiaries of this EULA and that, upon your acceptance, Google will have the right (and will be deemed to have accepted the right) to enforce this EULA against you as a third-party beneficiary.
+
+## 10C\. TELEGRAM MINI APPS
+
+The following applies to the Application accessed through or used as a Telegram Mini App (“Telegram Sourced Application”):
+
+You acknowledge and agree that this EULA is concluded between you and Theoretical Studio only, not with Telegram Messenger LLP or its affiliates (“Telegram”), and Theoretical Studio, not Telegram, is solely responsible for the Telegram Sourced Application and its content.
+
+Your use of the Telegram Sourced Application must comply with the Telegram Terms of Service
+, Telegram Privacy Policy
+, and any applicable rules of the Telegram Bot API
+ and Telegram Mini Apps platform
+.
+
+Telegram has no obligation whatsoever to furnish any maintenance and support services with respect to the Telegram Sourced Application. To the maximum extent permitted by applicable law, Telegram will have no warranty obligation or liability with respect to the Telegram Sourced Application.
+
+You and Theoretical Studio acknowledge that Telegram is not responsible for addressing any claims by you or a third party relating to the Telegram Sourced Application or your possession and use thereof, including but not limited to (i) product liability claims, (ii) any claim that the Telegram Sourced Application fails to conform to any applicable legal or regulatory requirement, and (iii) claims arising under consumer protection or similar legislation.
+
+You and Theoretical Studio acknowledge that, in the event of any third-party claim that the Telegram Sourced Application or your possession and use of that Telegram Sourced Application infringes that third party’s intellectual property rights, Theoretical Studio, not Telegram, will be solely responsible for the investigation, defense, settlement, and discharge of any such claim.
+
+You acknowledge and agree that Telegram and its affiliates are third-party beneficiaries of this EULA and that, upon your acceptance, Telegram will have the right (and will be deemed to have accepted the right) to enforce this EULA against you as a third-party beneficiary.
+
+Without limiting any other terms of this EULA, you must comply with all applicable third-party terms of agreement when using the Telegram Sourced Application.
+
+# 11\. PROGRESSIVE WEB APP (PWA) AND BROWSER ACCESS
+
+The following applies to the Application when accessed as a Progressive Web App (“PWA”) or through a standard web browser (“Web Application”):
+
+You acknowledge and agree that your use of the Web Application is subject to the terms and conditions of the browser or platform you use to access it (including but not limited to Google Chrome, Mozilla Firefox, Apple Safari, or Microsoft Edge).
+
+Theoretical Studio does not guarantee that the Web Application will be compatible with all browsers, devices, operating systems, or hardware configurations. Certain features of the Web Application, including but not limited to offline functionality, push notifications, or installation as a PWA, may not be available or may operate differently depending on the browser and device.
+
+You acknowledge that internet connectivity is required for most features of the Web Application, and Theoretical Studio is not responsible for any disruptions, delays, data loss, or other issues caused by network instability, browser cache, or third-party extensions.
+
+To the maximum extent permitted by applicable law, Theoretical Studio disclaims all liability related to the operation, performance, or security of the Web Application when accessed through third-party browsers or platforms.
+
+Without limiting any other terms of this EULA, you must comply with all applicable third-party terms of agreement (including browser terms of service and privacy policies) when using the Web Application.
+
+# 12\. DISCLAIMER OF WARRANTIES
 
 UNLESS OTHERWISE EXPLICITLY AGREED TO IN WRITING BY Theoretical Studio, APPLICATION IS PROVIDED “AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” AND DEFECTS AND Theoretical Studio, MAKES NO OTHER WARRANTIES, EXPRESS OR IMPLIED, IN FACT, OR IN LAW, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, OTHER THAN AS SET FORTH IN THIS EULA AGREEMENT.  
 Theoretical Studio MAKES NO WARRANTIES ABOUT (I) THE ACCURACY, COMPLETENESS, OR CONTENT ON THIS APPLICATION AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR THE SAME. Theoretical Studio MAKES NO WARRANTIES THAT THE OPERATION OF THE APPLICATION WILL BE SECURE, ERROR-FREE, OR FREE FROM INTERRUPTION.  
 NO ORAL OR WRITTEN ADVICE PROVIDED BY Theoretical Studio OR ANY AUTHORIZED REPRESENTATIVE OR THIRD PARTY SHALL CREATE A WARRANTY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF, OR LIMITATIONS ON, IMPLIED WARRANTIES OR THE LIMITATIONS ON THE APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO SOME OR ALL OF THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY TO YOU.  
 THE FOREGOING DISCLAIMER OF REPRESENTATIONS AND WARRANTIES SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND SHALL SURVIVE ANY TERMINATION OR EXPIRATION OF THIS EULA AGREEMENT OR YOUR USE OF THIS SITE OR THE SERVICES FOUND AT THIS SITE.
 
-# 12\. LIMITATION OF LIABILITY
+# 13\. LIMITATION OF LIABILITY
 
-TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO EVENT SHALL Theoretical Studio, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND ALL THIRD-PARTY SERVICE PROVIDERS, BE LIABLE TO YOU OR ANY OTHER PERSON OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING ANY DAMAGES THAT MAY RESULT FROM (I) THIS AGREEMENT, (II) THE ACCURACY, COMPLETENESS, OR CONTENT ON THIS APPLICATION, (III) OR FROM THE FURNISHING, PERFORMANCE, INSTALLATION, OR USE OF THE APPLICATION, WHEATHER DUE TO A BREACH OF CONTRACT, BREACH OF WARRANTY, OR THE NEGLIGENCE OF Theoretical Studio OR ANY OTHER PARTY, EVEN IF Theoretical Studio IS ADVISED BEFOREHAND OF THE POSSIBILITY OF SUCH DAMAGES.  
+TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO EVENT SHALL Theoretical Studio, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND ALL THIRD-PARTY SERVICE PROVIDERS, BE LIABLE TO YOU OR ANY OTHER PERSON OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING ANY DAMAGES THAT MAY RESULT FROM (I) THIS AGREEMENT, (II) THE ACCURACY, COMPLETENESS, OR CONTENT ON THIS APPLICATION, (III) OR FROM THE FURNISHING, PERFORMANCE, INSTALLATION, OR USE OF THE APPLICATION, WHETHER DUE TO A BREACH OF CONTRACT, BREACH OF WARRANTY, OR THE NEGLIGENCE OF Theoretical Studio OR ANY OTHER PARTY, EVEN IF Theoretical Studio IS ADVISED BEFOREHAND OF THE POSSIBILITY OF SUCH DAMAGES.  
 SOME JURISDICTIONS DO NOT ALLOW A LIMITATION OF LIABILITY FOR DEATH, PERSONAL INJURY, FRAUDULENT MISREPRESENTATIONS OR CERTAIN INTENTIONAL OR NEGLIGENT ACTS, OR VIOLATION OF SPECIFIC STATUTES, OR THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO SOME OR ALL OF THE ABOVE LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU. IN NO EVENT SHALL Theoretical Studio’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES (EXCEPT AS REQUIRED BY APPLICABLE LAW) EXCEED THE AMOUNT ACTUALLY PAID BY YOU FOR THE APPLICATION. THIS LIMITATION APPLIES, BUT IT IS NOT LIMITED TO ANYTHING RELATED TO THE APPLICATION, SERVICES, OR CONTENT MADE AVAILABLE THROUGH THE APPLICATION. YOU AGREE THAT THE PROVISIONS IN THIS EULA AGREEMENT THAT LIMIT LIABILITY ARE ESSENTIAL TERMS OF THIS EULA AGREEMENT.  
 THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND SHALL SURVIVE ANY TERMINATION OR EXPIRATION OF THIS EULA AGREEMENT.
 
-# 13\. INDEMNITY
+# 14\. INDEMNITY
 
 You agree to protect, defend, indemnify and hold harmless Theoretical Studio and its officers, directors, employees, agents from and against any and all claims, demands, costs, expenses, losses, liabilities, and damages of every kind and nature (including, without limitation, reasonable attorneys’ fees) imposed upon or incurred by Theoretical Studio directly or indirectly arising from (i) your use of the Application; (ii) your violation of any provision of this Agreement; and/or (iii) your violation of any third-party right, including without limitation any intellectual property or other proprietary rights. The indemnification obligations under this section shall survive any termination or expiration of this Agreement or your use of Application.
 
-# 14\. AVAILABILITY OF APPLICATION
+# 15\. AVAILABILITY OF APPLICATION
 
 Subject to the terms and conditions of this Agreement and our policies, we shall use commercially reasonable efforts to attempt to provide this Application on 24/7 basis. You acknowledge and agree that from time to time this Application may be inaccessible for any reason including, but not limited to, periodic maintenance, repairs or replacements that we undertake from time to time, or other causes beyond our control including, but not limited to, interruption or failure of telecommunication or digital transmission links or other failures.  
 You acknowledge and agree that we have no control over the availability of this Application on a continuous or uninterrupted basis and that we assume no liability to you or any other party with regard thereto.
 
-# 15\. TERMINATION
+# 16\. TERMINATION
 
 This EULA agreement is effective from the date you first download, install or use the Application and shall continue until terminated. You may terminate this Agreement by deleting the Application and all copies thereof from your Mobile Device.  
 This EULA agreement will also be terminated immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Application. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.  
 Theoretical Studio reserves the right to cease offering or providing Application at any time, for any or no reason, and without prior notice. Although Theoretical Studio makes a great effort to maximize the lifespan of the Application, it might be, that the Application we offer will be discontinued. If that is the case, this EULA agreement will be terminated, and the Application will no longer be supported by Theoretical Studio.  
 Upon termination, all rights granted to you under this EULA agreement will also terminate and you must cease all use of the Application and delete all copies of the Application from your Mobile Device and account.
 
-# 16\. COMPLIANCE WITH LOCAL LAWS
+# 17\. COMPLIANCE WITH LOCAL LAWS
 
 Theoretical Studio makes no representation or warranty that all the content available on this Application is appropriate in every country or jurisdiction and use of this Application from countries or jurisdictions where its content is illegal is prohibited. Users who choose to use this Software are responsible for compliance with all local laws, rules, and regulations.
 
-# 17\. GOVERNING LAW
+# 18\. GOVERNING LAW
 
 This EULA agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation shall be governed by and construed in accordance with the laws of Kazakhstan, to the exclusion of conflict of law rules.
 
-# 18\. TITLES AND HEADINGS
+# 19\. TITLES AND HEADINGS
 
 The titles and headings of this EULA agreement are for convenience and ease of reference only and shall not be utilized in any way to construe or interpret the agreement of the parties as otherwise set forth herein.  
-19\. LIMITATION OF TIME TO FILE CLAIMS  
-ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE APPLICATION MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED  
-.  
 
-# 20\. SEVERABILITY
+# 20\. LIMITATION OF TIME TO FILE CLAIMS  
+
+ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE APPLICATION MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.  
+
+# 21\. SEVERABILITY
 
 Each covenant and agreement in this EULA agreement shall be construed for all purposes to be a separate and independent covenant or agreement. If a court of competent jurisdiction holds any provision (or portion of a provision) of this EULA agreement to be illegal, invalid, or otherwise unenforceable, the remaining provisions (or portions of provisions) of this EULA agreement shall not be affected thereby and shall be found to be valid and enforceable to the fullest extent permitted by law.
 
-# 21\. CONTACT INFORMATION
+# 22\. CONTACT INFORMATION
 
 If you have any questions about this EULA agreement, please contact us by email or regular mail at the following address:  
 Theoretical Studio LLP  
