@@ -19,13 +19,6 @@ To delete your account, please follow these steps:
 - After account deletion, the following will be permanently removed: your purchases, leaderboard records, VIP status, and all game progress. Account recovery will not be possible.
 
 
-
-# 14\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-
-If you have questions or comments about this notice, you may email us at:
-
-[privacy@theoretical.studio](mailto:privacy@theoretical.studio)
-
 ## Contact us with other questions:
 
 [contact@theoretical.studio](mailto:contact@theoretical.studio)
