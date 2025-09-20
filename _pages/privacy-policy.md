@@ -8,7 +8,7 @@ noindex: true
 
 # PRIVACY NOTICE
 
-Last updated June 9, 2024
+Last updated September 20, 2024
 
 This privacy notice for Theoretical Studio ("**Company**," "**we**," "**us**," or "**our**") describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"). This Privacy Policy applies to all platforms where our Services are available, including mobile applications (iOS, Android), PWA (Progressive Web App), and Telegram Mini App. You may interact with our Services, for example:
 
