@@ -1,3 +1,17 @@
+// Function to send Google Analytics event
+function sendGAEvent(eventName) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', eventName, {
+            'event_category': 'engagement',
+            'event_label': 'app_store_button_click'
+        });
+    } else if (typeof ga !== 'undefined') {
+        ga('send', 'event', 'engagement', eventName, 'app_store_button_click');
+    }
+    // Log to console for debugging
+    console.log('GA Event:', eventName);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     const appStore = document.getElementById("appStore");
     const googlePlay = document.getElementById("googlePlay");
@@ -24,10 +38,25 @@ document.addEventListener("DOMContentLoaded", function() {
         telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
     }
     
-    // Apply the links
-    if (appStore) appStore.href = appStoreLink;
-    if (googlePlay) googlePlay.href = googlePlayLink;
-    if (telegram) telegram.href = telegramLink;
+    // Apply the links and add click handlers
+    if (appStore) {
+        appStore.href = appStoreLink;
+        appStore.addEventListener('click', function() {
+            sendGAEvent('ios_button_click');
+        });
+    }
+    if (googlePlay) {
+        googlePlay.href = googlePlayLink;
+        googlePlay.addEventListener('click', function() {
+            sendGAEvent('android_button_click');
+        });
+    }
+    if (telegram) {
+        telegram.href = telegramLink;
+        telegram.addEventListener('click', function() {
+            sendGAEvent('tg_button_click');
+        });
+    }
     
     // Show both buttons on all devices
     if (appStore) {
