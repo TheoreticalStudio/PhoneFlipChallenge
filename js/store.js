@@ -4,14 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let hasVoted = false;
 
     // Функция для отправки событий в Google Analytics
-    function trackGoogleAnalytics(eventCategory, eventAction, eventLabel = '') {
+    function trackGoogleAnalytics(eventName, eventParams) {
         if (typeof gtag !== 'undefined') {
-            gtag('event', eventAction, {
-                'event_category': eventCategory,
-                'event_label': eventLabel
-            });
+            gtag('event', eventName, eventParams);
         } else {
-            console.log(`GA Event - Category: ${eventCategory}, Action: ${eventAction}, Label: ${eventLabel}`);
+            console.log(`GA Event ${eventName} params: ${eventParams}`);
         }
     }
 
@@ -23,7 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const productName = card.querySelector(`.like-btn`)?.dataset.productName || `Product ${productId}`;
         
         // Отправляем событие о голосовании за товар
-        trackGoogleAnalytics('Product_Vote', action, productName);
+        trackGoogleAnalytics(action, {
+            item_id: productName,
+            item_name: productName,
+        });
         
         // Отмечаем карточку как проголосованную
         card.classList.add('voted');
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 votingComplete.scrollIntoView({ behavior: 'smooth' });
                 // Отправляем событие о завершении голосования
-                trackGoogleAnalytics('Voting', 'Completed', 'User completed voting');
+                trackGoogleAnalytics('voting_completed');
             }, 300);
         }
     }
