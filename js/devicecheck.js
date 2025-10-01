@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Default links (regular web links)
     let appStoreLink = "https://apps.apple.com/app/apple-store/id6744176430";
     let googlePlayLink = "https://play.google.com/store/apps/details?id=com.TheoreticalStudio.PhoneFlip";
-    let telegramLink = "https://t.me/flutter_accelerometer_test_bot";
+    let telegramLink = "https://t.me/PhoneFlipChallenge_bot";
     
     // Update links based on platform
     if (platform === "iOS") {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
     } else if (platform === "unknown") {
         // For desktops or unknown devices
-        telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
+        telegramLink = "tg://resolve?domain=PhoneFlipChallenge_bot";
     }
 
     // Apply the links and add click handlers
