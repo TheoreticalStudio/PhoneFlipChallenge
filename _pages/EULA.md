@@ -2,7 +2,7 @@
 layout: EULA
 title: EULA — Phone Flip Challenge — Theoretical Studio
 description: EULA for Phone Flip Challenge game by Theoretical Studio
-permalink: /phone-flip-eula/
+permalink: /eula/
 noindex: true
 ---
 # EULA

@@ -2,7 +2,7 @@
 layout: delete
 title: Delete account — Phone Flip Challenge — Theoretical Studio
 description: Delete account for Phone Flip Challenge game by Theoretical Studio
-permalink: /phone-flip-delete-account/
+permalink: /delete-account/
 noindex: true
 ---
 

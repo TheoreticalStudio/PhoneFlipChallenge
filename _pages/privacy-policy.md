@@ -2,7 +2,7 @@
 layout: privacy
 title: Privacy Policy — Phone Flip Challenge — Theoretical Studio
 description: Privacy Policy for Phone Flip Challenge game by Theoretical Studio
-permalink: /phone-flip-privacy-policy/
+permalink: /privacy-policy/
 noindex: true
 ---
 
