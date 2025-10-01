@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     } else if (platform === "Android") {
         // For Android devices
         googlePlayLink = "market://details?id=com.TheoreticalStudio.PhoneFlip";
-        telegramLink = "tg://resolve?domain=flutter_accelerometer_test_bot";
+        telegramLink = "tg://resolve?domain=PhoneFlipChallenge_bot";
     } else if (platform === "unknown") {
         // For desktops or unknown devices
         telegramLink = "tg://resolve?domain=PhoneFlipChallenge_bot";
