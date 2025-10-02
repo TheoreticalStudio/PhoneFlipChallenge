@@ -87,6 +87,7 @@
   z-index: 10;
   max-width: 25vw;
   height: auto;
+  pointer-events: none;
 }
 
 
@@ -100,6 +101,7 @@
   width: 100%;
   max-width:25vw;
   height: auto;
+  pointer-events: none;
 }
 
 .button-line{
