@@ -1,12 +1,62 @@
 # www.robotstxt.org/
 
-# Allow crawling of all content
+# Global Allow
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /private/
 
+# AI Bots
+User-agent: GPTBot
+Allow: /
 
-User-a123gent: *
-Allo123w: /
-Site123map: https://theoretical.studio/sitemap.xml
-Disallow123: /admin/
-Disallow123: /private/
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Social & Browsing Bots
+User-agent: CCBot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# Sitemaps
+Sitemap: https://theoretical.studio/sitemap.xml
+Sitemap: https://theoretical.studio/sitemap-index.xml
