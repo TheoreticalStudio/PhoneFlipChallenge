@@ -11,28 +11,37 @@ title: Phone Flip Challenge
         <h1>Flip Everywhere!</h1>
         <div class="hero-button-container">
           <!-- ведём сразу на приложение -->
-          <a href="market://details?id=com.TheoreticalStudio.PhoneFlip" class="store-button" id="googlePlay">
+          <!-- id="googlePlay" -->
+          <!-- id="telegram" -->
+          <!-- id="appStore" -->
+          <!-- <a href="market://details?id=com.TheoreticalStudio.PhoneFlip" class="store-button">
             <img src="{{ '/img/icons/googleplay-button.svg' | relative_url }}" alt="Play Market button">
           </a>
-          <a href="tg://resolve?domain=PhoneFlipChallenge_bot" class="store-button" id="telegram">
+          <a href="tg://resolve?domain=PhoneFlipChallenge_bot" class="store-button">
             <img src="{{ '/img/icons/telegram-button.svg' | relative_url }}" alt="telegram button">
           </a>
           <div class="button-ios-block">
             <span>Follow us on socials</span>
-            <a href="itms-apps://apps.apple.com/app/id1609515393" class="store-button fade-untouch" id="appStore">
+            <a href="itms-apps://apps.apple.com/app/id1609515393" class="store-button fade-untouch">
               <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
             </a>
-          </div>
+          </div> -->
           <!-- Обычные ссылки -->
           <!-- <a href="https://apps.apple.com/app/apple-store/id1609515393" class="store-button" id="appStore">
             <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
-          </a>
+          </a> -->
           <a href="https://play.google.com/store/apps/details?id=com.TheoreticalStudio.PhoneFlip" class="store-button" id="googlePlay">
             <img src="{{ '/img/icons/googleplay-button.svg' | relative_url }}" alt="Play Market button">
           </a>
           <a href="https://t.me/PhoneFlipChallenge_bot" class="store-button" id="telegram">
             <img src="{{ '/img/icons/telegram-button.svg' | relative_url }}" alt="telegram button">
-          </a> -->
+          </a>
+          <div class="button-ios-block">
+            <span>Follow us on socials</span>
+            <a href="itms-apps://apps.apple.com/app/id1609515393" class="store-button fade-untouch">
+              <img src="{{ '/img/icons/appstore-button.svg' | relative_url }}" alt="AppStore button">
+            </a>
+          </div>
         </div>
       </div>
       <iframe src="https://www.youtube.com/embed/AhVuJoO1FRc" title="Phone Flip Challenge : Official Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" class="trailer" allowfullscreen></iframe>
@@ -112,7 +121,7 @@ title: Phone Flip Challenge
           <h1>1</h1>
           <h1>Flip your phone and make a record</h1>
         </div>
-        <video muted class="stories-video" loop autoplay poster="{{ '/img/event_1.webp' | relative_url }}">
+        <video muted class="stories-video" loop autoplay playsinline poster="{{ '/img/event_1.webp' | relative_url }}">
           <source src="{{ '/img/event_flip.mp4' | relative_url }}" type="video/mp4">
         </video>
       </div>
@@ -121,7 +130,7 @@ title: Phone Flip Challenge
           <h1>2</h1>
           <h1>Show record to camera</h1>
         </div>
-        <video muted class="stories-video" loop autoplay poster="{{ '/img/event_2.webp' | relative_url }}">
+        <video muted class="stories-video" loop autoplay playsinline poster="{{ '/img/event_2.webp' | relative_url }}">
           <source src="{{ '/img/event_show.mp4' | relative_url }}" type="video/mp4">
         </video>
       </div>
