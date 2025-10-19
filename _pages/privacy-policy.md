@@ -76,6 +76,8 @@ We automatically collect certain information when you visit, use, or navigate th
 
 The information we collect includes: 
 
+* Demographic Information. We may collect non-identifiable demographic data, such as age group (e.g., 13–17, 18–24, 25–34, 35–44, 45+), to better understand our audience and improve user experience. This information is collected anonymously and cannot be used to identify individual users.
+
 *    Log and Usage Data. Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called "crash dumps"), and hardware settings). 
     
 
@@ -96,6 +98,8 @@ The information we collect includes: 
 *   **To identify usage trends.** We may process information about how you use our Services to better understand how they are being used so we can improve them.
     
 *   **To save or protect an individual's vital interest.** We may process your information when necessary to save or protect an individual's vital interest, such as to prevent harm. 
+
+*   **To analyze demographics. We may process aggregated.** non-identifiable demographic data (such as age groups) to understand user trends and improve our Services.
     
 
   
