@@ -104,3 +104,19 @@ a {
   /*outline: 1px solid slategrey;*/
   /*border-radius: 100px;*/
 }
+
+/* Tutorial video iframe */
+.tutorial-video {
+  max-width: 450px;
+  width: 100%;
+  min-height: 800px; /* 450 * 16/9 = 800px для соотношения 9:16 */
+  /* height: 100%; */
+  padding: 1rem;
+  border: none;
+}
+
+.center-flex{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
