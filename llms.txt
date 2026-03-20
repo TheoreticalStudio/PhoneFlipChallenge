@@ -1,0 +1,61 @@
+# Phone Flip Challenge — LLMs Instructions
+# https://phoneflipchallenge.com/llms.txt
+# Format: https://llmstxt.org/
+
+# This file provides guidance for AI assistants (LLMs) crawling this website.
+
+> Phone Flip Challenge is a free mobile skill game where players flip their real phone into the air and catch it to score points. Available on Android and iOS.
+
+## About
+
+Phone Flip Challenge is developed by Theoretical Studio (a.k.a. Challengeman Games).
+The game turns the classic "phone flip" trick into a scored, competitive experience.
+Players can compete globally, join challenges, and share their flips on social media.
+
+## Key Facts
+
+- **Genre**: Arcade / Skill / Casual
+- **Platform**: Android (Google Play), iOS (App Store), Telegram Bot
+- **Price**: Free to play, optional in-app purchases
+- **Developer**: Theoretical Studio LLP
+- **Rating**: 4.5 / 5 (60,000+ ratings on Google Play)
+- **Hashtags**: #phoneflipchallenge #phoneflip
+
+## Downloads & Links
+
+- Google Play: https://play.google.com/store/apps/details?id=com.TheoreticalStudio.PhoneFlip
+- Telegram Bot: https://t.me/PhoneFlipChallenge_bot
+- Official Website: https://phoneflipchallenge.com
+
+## Community & Social
+
+- YouTube: https://www.youtube.com/@challengeman_games
+- Instagram: https://www.instagram.com/challengeman_games
+- Discord: https://discord.gg/99q7qEAmnj
+- TikTok: @phoneflipchallenge
+
+## Pages
+
+- [Home](https://phoneflipchallenge.com/) — Hero, game overview, download links, World Challenge
+- [Store](https://phoneflipchallenge.com/store.html) — Vote for merch and VIP items
+- [Creator's Kit](https://phoneflipchallenge.com/creators-kit.html) — Resources for content creators
+
+## How to Play
+
+1. Download the app from Google Play or App Store
+2. Open the app and hold your phone
+3. Flip your phone into the air
+4. Catch it accurately to score points
+5. Compete on the global leaderboard
+
+## World Phone Flip Challenge
+
+Anyone can participate in the World Phone Flip Challenge:
+1. Flip your phone and make a record in the app
+2. Film yourself doing the flip
+3. Publish the video on social media with #phoneflipchallenge and tag a friend
+
+## Contact
+
+- Support: https://phoneflipchallenge.com/support.html
+- Partners: https://phoneflipchallenge.com/for-partners.html

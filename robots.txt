@@ -1,54 +1,103 @@
 # www.robotstxt.org/
 
-# Global Allow
+# === Global Allow ===
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-# AI Bots
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-# Search Engines
+# === Standard Search Engines ===
 User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: Yandex
-Allow: /
-
-User-agent: Baiduspider
+User-agent: Slurp
 Allow: /
 
 User-agent: DuckDuckBot
 Allow: /
 
-# Social & Browsing Bots
-User-agent: CCBot
+User-agent: Baiduspider
 Allow: /
 
-User-agent: ia_archiver
-Allow: /
-
-User-agent: Twitterbot
+User-agent: YandexBot
 Allow: /
 
 User-agent: Applebot
+Allow: /
+
+# === OpenAI ===
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# === Anthropic / Claude ===
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# === Google AI ===
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# === Meta AI ===
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# === Other AI ===
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Grok
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# === Social & Archiving ===
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
 Allow: /
 
 User-agent: facebookexternalhit
@@ -57,6 +106,11 @@ Allow: /
 User-agent: Slackbot
 Allow: /
 
-# Sitemaps
-Sitemap: https://theoretical.studio/sitemap.xml
-Sitemap: https://theoretical.studio/sitemap-index.xml
+User-agent: CCBot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# === Sitemaps ===
+Sitemap: https://phoneflipchallenge.com/sitemap.xml
