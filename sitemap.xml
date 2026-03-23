@@ -66,6 +66,11 @@
   <priority>0.70</priority>
 </url>
 <url>
+  <loc>https://phoneflipchallenge.com/404.html</loc>
+  <lastmod>2026-03-23</lastmod>
+  <priority>0.10</priority>
+</url>
+<url>
   <loc>https://phoneflipchallenge.com/tutorial_openpalm.html</loc>
   <lastmod>2026-03-20</lastmod>
   <priority>0.70</priority>

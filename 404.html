@@ -1,60 +1,25 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+title: 404 Page Not Found
+---
 
-<head>
-  <meta charset="utf-8">
-  <title>Page Not Found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      line-height: 1.2;
-      margin: 0;
-    }
+<section class="fullscreen-section flex-center red first-full">
+  <div class="container">
+    <div class="hero-block">
+      <div class="hero-active-block">
+        <img src="{{ '/img/phone-flip-logo.svg' | relative_url }}" alt="phone flip challenge" class="game-logo-big">
+        <h1 class="header-big" style="color: white; margin: 0; font-size: clamp(4rem, 15vh, 8rem);">404</h1>
+        <h2 style="color: white; text-align: center;">Oops! Looks like you dropped the page.</h2>
+        <p style="color: white; text-align: center; opacity: 0.9;">The page you're looking for doesn't exist or has been moved.</p>
+        <div class="hero-button-container">
+          <a href="{{ '/' | relative_url }}" class="banner-button" style="width: auto; padding: 1rem 2rem;">
+            <span style="max-width: none;">Back to Home</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    html {
-      color: #888;
-      display: table;
-      font-family: sans-serif;
-      height: 100%;
-      text-align: center;
-      width: 100%;
-    }
-
-    body {
-      display: table-cell;
-      vertical-align: middle;
-      margin: 2em auto;
-    }
-
-    h1 {
-      color: #555;
-      font-size: 2em;
-      font-weight: 400;
-    }
-
-    p {
-      margin: 0 auto;
-      width: 280px;
-    }
-
-    @media only screen and (max-width: 280px) {
-
-      body,
-      p {
-        width: 95%;
-      }
-
-      h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-      }
-
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
-</body>
-</html>
+<img src="{{ '/img/dots-up.webp' | relative_url }}" class="left-top-angle" alt="dots">
+<img src="{{ '/img/dots.webp' | relative_url }}" class="right-bot-angle" alt="dots">
